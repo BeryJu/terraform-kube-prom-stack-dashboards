@@ -3,7 +3,7 @@ from requests import get
 from yaml import load, FullLoader
 from os import makedirs
 
-output = "output/"
+output = "dashboards/"
 upstream_sources = [
     "https://raw.githubusercontent.com/prometheus-operator/kube-prometheus/main/manifests/grafana-dashboardDefinitions.yaml"
 ]
