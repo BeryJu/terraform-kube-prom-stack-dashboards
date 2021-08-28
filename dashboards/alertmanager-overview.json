@@ -529,7 +529,7 @@
                     "value": "$__all"
                 },
                 "datasource": "$datasource",
-                "hide": 2,
+                "hide": 0,
                 "includeAll": true,
                 "label": null,
                 "multi": false,
