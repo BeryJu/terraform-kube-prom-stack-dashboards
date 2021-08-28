@@ -1,0 +1,33 @@
+name: build
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 * * * *"
+
+jobs:
+  schema:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+      - name: Install dependecies
+        uses: VaultVulp/action-pipenv@v2.0.1
+        with:
+          command: install
+      - name: Test
+        uses: VaultVulp/action-pipenv@v2.0.1
+        with:
+          command: run main.py
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: new-build
+          commit-message: Update dashboards
+          title: Update dashboards
+          delete-branch: true
+          signoff: true
