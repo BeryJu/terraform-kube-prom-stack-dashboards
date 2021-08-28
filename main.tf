@@ -11,12 +11,19 @@ terraform {
   }
 }
 
+variable "grafana_folder" {
+  description = "Folder in grafana to add the dashboards to"
+  type        = number
+  default     = 0
+}
+
 
 data "http" "k8s-alertmanager-overview" {
   url = "https://raw.githubusercontent.com/BeryJu/kube-prom-stack-dashboards/master/dashboards/alertmanager-overview.json"
 }
 
 resource "grafana_dashboard" "k8s-alertmanager-overview" {
+  folder      = var.grafana_folder
   config_json = data.http.k8s-alertmanager-overview.body
 }
 
@@ -25,6 +32,7 @@ data "http" "k8s-apiserver" {
 }
 
 resource "grafana_dashboard" "k8s-apiserver" {
+  folder      = var.grafana_folder
   config_json = data.http.k8s-apiserver.body
 }
 
@@ -33,6 +41,7 @@ data "http" "k8s-cluster-total" {
 }
 
 resource "grafana_dashboard" "k8s-cluster-total" {
+  folder      = var.grafana_folder
   config_json = data.http.k8s-cluster-total.body
 }
 
@@ -41,6 +50,7 @@ data "http" "k8s-controller-manager" {
 }
 
 resource "grafana_dashboard" "k8s-controller-manager" {
+  folder      = var.grafana_folder
   config_json = data.http.k8s-controller-manager.body
 }
 
@@ -49,6 +59,7 @@ data "http" "k8s-k8s-resources-cluster" {
 }
 
 resource "grafana_dashboard" "k8s-k8s-resources-cluster" {
+  folder      = var.grafana_folder
   config_json = data.http.k8s-k8s-resources-cluster.body
 }
 
@@ -57,6 +68,7 @@ data "http" "k8s-k8s-resources-namespace" {
 }
 
 resource "grafana_dashboard" "k8s-k8s-resources-namespace" {
+  folder      = var.grafana_folder
   config_json = data.http.k8s-k8s-resources-namespace.body
 }
 
@@ -65,6 +77,7 @@ data "http" "k8s-k8s-resources-node" {
 }
 
 resource "grafana_dashboard" "k8s-k8s-resources-node" {
+  folder      = var.grafana_folder
   config_json = data.http.k8s-k8s-resources-node.body
 }
 
@@ -73,6 +86,7 @@ data "http" "k8s-k8s-resources-pod" {
 }
 
 resource "grafana_dashboard" "k8s-k8s-resources-pod" {
+  folder      = var.grafana_folder
   config_json = data.http.k8s-k8s-resources-pod.body
 }
 
@@ -81,6 +95,7 @@ data "http" "k8s-k8s-resources-workload" {
 }
 
 resource "grafana_dashboard" "k8s-k8s-resources-workload" {
+  folder      = var.grafana_folder
   config_json = data.http.k8s-k8s-resources-workload.body
 }
 
@@ -89,6 +104,7 @@ data "http" "k8s-k8s-resources-workloads-namespace" {
 }
 
 resource "grafana_dashboard" "k8s-k8s-resources-workloads-namespace" {
+  folder      = var.grafana_folder
   config_json = data.http.k8s-k8s-resources-workloads-namespace.body
 }
 
@@ -97,6 +113,7 @@ data "http" "k8s-kubelet" {
 }
 
 resource "grafana_dashboard" "k8s-kubelet" {
+  folder      = var.grafana_folder
   config_json = data.http.k8s-kubelet.body
 }
 
@@ -105,6 +122,7 @@ data "http" "k8s-namespace-by-pod" {
 }
 
 resource "grafana_dashboard" "k8s-namespace-by-pod" {
+  folder      = var.grafana_folder
   config_json = data.http.k8s-namespace-by-pod.body
 }
 
@@ -113,6 +131,7 @@ data "http" "k8s-namespace-by-workload" {
 }
 
 resource "grafana_dashboard" "k8s-namespace-by-workload" {
+  folder      = var.grafana_folder
   config_json = data.http.k8s-namespace-by-workload.body
 }
 
@@ -121,6 +140,7 @@ data "http" "k8s-node-cluster-rsrc-use" {
 }
 
 resource "grafana_dashboard" "k8s-node-cluster-rsrc-use" {
+  folder      = var.grafana_folder
   config_json = data.http.k8s-node-cluster-rsrc-use.body
 }
 
@@ -129,6 +149,7 @@ data "http" "k8s-node-rsrc-use" {
 }
 
 resource "grafana_dashboard" "k8s-node-rsrc-use" {
+  folder      = var.grafana_folder
   config_json = data.http.k8s-node-rsrc-use.body
 }
 
@@ -137,6 +158,7 @@ data "http" "k8s-nodes" {
 }
 
 resource "grafana_dashboard" "k8s-nodes" {
+  folder      = var.grafana_folder
   config_json = data.http.k8s-nodes.body
 }
 
@@ -145,6 +167,7 @@ data "http" "k8s-persistentvolumesusage" {
 }
 
 resource "grafana_dashboard" "k8s-persistentvolumesusage" {
+  folder      = var.grafana_folder
   config_json = data.http.k8s-persistentvolumesusage.body
 }
 
@@ -153,6 +176,7 @@ data "http" "k8s-pod-total" {
 }
 
 resource "grafana_dashboard" "k8s-pod-total" {
+  folder      = var.grafana_folder
   config_json = data.http.k8s-pod-total.body
 }
 
@@ -161,6 +185,7 @@ data "http" "k8s-prometheus-remote-write" {
 }
 
 resource "grafana_dashboard" "k8s-prometheus-remote-write" {
+  folder      = var.grafana_folder
   config_json = data.http.k8s-prometheus-remote-write.body
 }
 
@@ -169,6 +194,7 @@ data "http" "k8s-prometheus" {
 }
 
 resource "grafana_dashboard" "k8s-prometheus" {
+  folder      = var.grafana_folder
   config_json = data.http.k8s-prometheus.body
 }
 
@@ -177,6 +203,7 @@ data "http" "k8s-proxy" {
 }
 
 resource "grafana_dashboard" "k8s-proxy" {
+  folder      = var.grafana_folder
   config_json = data.http.k8s-proxy.body
 }
 
@@ -185,6 +212,7 @@ data "http" "k8s-scheduler" {
 }
 
 resource "grafana_dashboard" "k8s-scheduler" {
+  folder      = var.grafana_folder
   config_json = data.http.k8s-scheduler.body
 }
 
@@ -193,5 +221,6 @@ data "http" "k8s-workload-total" {
 }
 
 resource "grafana_dashboard" "k8s-workload-total" {
+  folder      = var.grafana_folder
   config_json = data.http.k8s-workload-total.body
 }

@@ -33,6 +33,12 @@ def build_tf(doc: dict):
   }
 }
 
+variable "grafana_folder" {
+  description = "Folder in grafana to add the dashboards to"
+  type        = number
+  default     = 0
+}
+
 """
     for config_map in doc.get("items", []):
         for file, _ in config_map.get("data", {}).items():
@@ -43,6 +49,7 @@ data "http" "k8s-{slug}" {{
 }}
 
 resource "grafana_dashboard" "k8s-{slug}" {{
+  folder      = var.grafana_folder
   config_json = data.http.k8s-{slug}.body
 }}
 """
