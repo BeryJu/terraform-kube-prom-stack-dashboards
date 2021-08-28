@@ -1,6 +1,19 @@
+terraform {
+  required_providers {
+    grafana = {
+      source = "grafana/grafana"
+      version = "~> 1.13"
+    }
+    http = {
+      source = "hashicorp/http"
+      version = "~> 2.1"
+    }
+  }
+}
+
 
 data "http" "k8s-alertmanager-overview" {
-  url = "https://raw.githubusercontent.com/BeryJu/kube-stack-dashboards/master/dasbhoards/alertmanager-overview.json"
+  url = "https://raw.githubusercontent.com/BeryJu/kube-stack-dashboards/master/dashboards/alertmanager-overview.json"
 }
 
 resource "grafana_dashboard" "k8s-alertmanager-overview" {
@@ -8,7 +21,7 @@ resource "grafana_dashboard" "k8s-alertmanager-overview" {
 }
 
 data "http" "k8s-apiserver" {
-  url = "https://raw.githubusercontent.com/BeryJu/kube-stack-dashboards/master/dasbhoards/apiserver.json"
+  url = "https://raw.githubusercontent.com/BeryJu/kube-stack-dashboards/master/dashboards/apiserver.json"
 }
 
 resource "grafana_dashboard" "k8s-apiserver" {
@@ -16,7 +29,7 @@ resource "grafana_dashboard" "k8s-apiserver" {
 }
 
 data "http" "k8s-cluster-total" {
-  url = "https://raw.githubusercontent.com/BeryJu/kube-stack-dashboards/master/dasbhoards/cluster-total.json"
+  url = "https://raw.githubusercontent.com/BeryJu/kube-stack-dashboards/master/dashboards/cluster-total.json"
 }
 
 resource "grafana_dashboard" "k8s-cluster-total" {
@@ -24,7 +37,7 @@ resource "grafana_dashboard" "k8s-cluster-total" {
 }
 
 data "http" "k8s-controller-manager" {
-  url = "https://raw.githubusercontent.com/BeryJu/kube-stack-dashboards/master/dasbhoards/controller-manager.json"
+  url = "https://raw.githubusercontent.com/BeryJu/kube-stack-dashboards/master/dashboards/controller-manager.json"
 }
 
 resource "grafana_dashboard" "k8s-controller-manager" {
@@ -32,7 +45,7 @@ resource "grafana_dashboard" "k8s-controller-manager" {
 }
 
 data "http" "k8s-k8s-resources-cluster" {
-  url = "https://raw.githubusercontent.com/BeryJu/kube-stack-dashboards/master/dasbhoards/k8s-resources-cluster.json"
+  url = "https://raw.githubusercontent.com/BeryJu/kube-stack-dashboards/master/dashboards/k8s-resources-cluster.json"
 }
 
 resource "grafana_dashboard" "k8s-k8s-resources-cluster" {
@@ -40,7 +53,7 @@ resource "grafana_dashboard" "k8s-k8s-resources-cluster" {
 }
 
 data "http" "k8s-k8s-resources-namespace" {
-  url = "https://raw.githubusercontent.com/BeryJu/kube-stack-dashboards/master/dasbhoards/k8s-resources-namespace.json"
+  url = "https://raw.githubusercontent.com/BeryJu/kube-stack-dashboards/master/dashboards/k8s-resources-namespace.json"
 }
 
 resource "grafana_dashboard" "k8s-k8s-resources-namespace" {
@@ -48,7 +61,7 @@ resource "grafana_dashboard" "k8s-k8s-resources-namespace" {
 }
 
 data "http" "k8s-k8s-resources-node" {
-  url = "https://raw.githubusercontent.com/BeryJu/kube-stack-dashboards/master/dasbhoards/k8s-resources-node.json"
+  url = "https://raw.githubusercontent.com/BeryJu/kube-stack-dashboards/master/dashboards/k8s-resources-node.json"
 }
 
 resource "grafana_dashboard" "k8s-k8s-resources-node" {
@@ -56,7 +69,7 @@ resource "grafana_dashboard" "k8s-k8s-resources-node" {
 }
 
 data "http" "k8s-k8s-resources-pod" {
-  url = "https://raw.githubusercontent.com/BeryJu/kube-stack-dashboards/master/dasbhoards/k8s-resources-pod.json"
+  url = "https://raw.githubusercontent.com/BeryJu/kube-stack-dashboards/master/dashboards/k8s-resources-pod.json"
 }
 
 resource "grafana_dashboard" "k8s-k8s-resources-pod" {
@@ -64,7 +77,7 @@ resource "grafana_dashboard" "k8s-k8s-resources-pod" {
 }
 
 data "http" "k8s-k8s-resources-workload" {
-  url = "https://raw.githubusercontent.com/BeryJu/kube-stack-dashboards/master/dasbhoards/k8s-resources-workload.json"
+  url = "https://raw.githubusercontent.com/BeryJu/kube-stack-dashboards/master/dashboards/k8s-resources-workload.json"
 }
 
 resource "grafana_dashboard" "k8s-k8s-resources-workload" {
@@ -72,7 +85,7 @@ resource "grafana_dashboard" "k8s-k8s-resources-workload" {
 }
 
 data "http" "k8s-k8s-resources-workloads-namespace" {
-  url = "https://raw.githubusercontent.com/BeryJu/kube-stack-dashboards/master/dasbhoards/k8s-resources-workloads-namespace.json"
+  url = "https://raw.githubusercontent.com/BeryJu/kube-stack-dashboards/master/dashboards/k8s-resources-workloads-namespace.json"
 }
 
 resource "grafana_dashboard" "k8s-k8s-resources-workloads-namespace" {
@@ -80,7 +93,7 @@ resource "grafana_dashboard" "k8s-k8s-resources-workloads-namespace" {
 }
 
 data "http" "k8s-kubelet" {
-  url = "https://raw.githubusercontent.com/BeryJu/kube-stack-dashboards/master/dasbhoards/kubelet.json"
+  url = "https://raw.githubusercontent.com/BeryJu/kube-stack-dashboards/master/dashboards/kubelet.json"
 }
 
 resource "grafana_dashboard" "k8s-kubelet" {
@@ -88,7 +101,7 @@ resource "grafana_dashboard" "k8s-kubelet" {
 }
 
 data "http" "k8s-namespace-by-pod" {
-  url = "https://raw.githubusercontent.com/BeryJu/kube-stack-dashboards/master/dasbhoards/namespace-by-pod.json"
+  url = "https://raw.githubusercontent.com/BeryJu/kube-stack-dashboards/master/dashboards/namespace-by-pod.json"
 }
 
 resource "grafana_dashboard" "k8s-namespace-by-pod" {
@@ -96,7 +109,7 @@ resource "grafana_dashboard" "k8s-namespace-by-pod" {
 }
 
 data "http" "k8s-namespace-by-workload" {
-  url = "https://raw.githubusercontent.com/BeryJu/kube-stack-dashboards/master/dasbhoards/namespace-by-workload.json"
+  url = "https://raw.githubusercontent.com/BeryJu/kube-stack-dashboards/master/dashboards/namespace-by-workload.json"
 }
 
 resource "grafana_dashboard" "k8s-namespace-by-workload" {
@@ -104,7 +117,7 @@ resource "grafana_dashboard" "k8s-namespace-by-workload" {
 }
 
 data "http" "k8s-node-cluster-rsrc-use" {
-  url = "https://raw.githubusercontent.com/BeryJu/kube-stack-dashboards/master/dasbhoards/node-cluster-rsrc-use.json"
+  url = "https://raw.githubusercontent.com/BeryJu/kube-stack-dashboards/master/dashboards/node-cluster-rsrc-use.json"
 }
 
 resource "grafana_dashboard" "k8s-node-cluster-rsrc-use" {
@@ -112,7 +125,7 @@ resource "grafana_dashboard" "k8s-node-cluster-rsrc-use" {
 }
 
 data "http" "k8s-node-rsrc-use" {
-  url = "https://raw.githubusercontent.com/BeryJu/kube-stack-dashboards/master/dasbhoards/node-rsrc-use.json"
+  url = "https://raw.githubusercontent.com/BeryJu/kube-stack-dashboards/master/dashboards/node-rsrc-use.json"
 }
 
 resource "grafana_dashboard" "k8s-node-rsrc-use" {
@@ -120,7 +133,7 @@ resource "grafana_dashboard" "k8s-node-rsrc-use" {
 }
 
 data "http" "k8s-nodes" {
-  url = "https://raw.githubusercontent.com/BeryJu/kube-stack-dashboards/master/dasbhoards/nodes.json"
+  url = "https://raw.githubusercontent.com/BeryJu/kube-stack-dashboards/master/dashboards/nodes.json"
 }
 
 resource "grafana_dashboard" "k8s-nodes" {
@@ -128,7 +141,7 @@ resource "grafana_dashboard" "k8s-nodes" {
 }
 
 data "http" "k8s-persistentvolumesusage" {
-  url = "https://raw.githubusercontent.com/BeryJu/kube-stack-dashboards/master/dasbhoards/persistentvolumesusage.json"
+  url = "https://raw.githubusercontent.com/BeryJu/kube-stack-dashboards/master/dashboards/persistentvolumesusage.json"
 }
 
 resource "grafana_dashboard" "k8s-persistentvolumesusage" {
@@ -136,7 +149,7 @@ resource "grafana_dashboard" "k8s-persistentvolumesusage" {
 }
 
 data "http" "k8s-pod-total" {
-  url = "https://raw.githubusercontent.com/BeryJu/kube-stack-dashboards/master/dasbhoards/pod-total.json"
+  url = "https://raw.githubusercontent.com/BeryJu/kube-stack-dashboards/master/dashboards/pod-total.json"
 }
 
 resource "grafana_dashboard" "k8s-pod-total" {
@@ -144,7 +157,7 @@ resource "grafana_dashboard" "k8s-pod-total" {
 }
 
 data "http" "k8s-prometheus-remote-write" {
-  url = "https://raw.githubusercontent.com/BeryJu/kube-stack-dashboards/master/dasbhoards/prometheus-remote-write.json"
+  url = "https://raw.githubusercontent.com/BeryJu/kube-stack-dashboards/master/dashboards/prometheus-remote-write.json"
 }
 
 resource "grafana_dashboard" "k8s-prometheus-remote-write" {
@@ -152,7 +165,7 @@ resource "grafana_dashboard" "k8s-prometheus-remote-write" {
 }
 
 data "http" "k8s-prometheus" {
-  url = "https://raw.githubusercontent.com/BeryJu/kube-stack-dashboards/master/dasbhoards/prometheus.json"
+  url = "https://raw.githubusercontent.com/BeryJu/kube-stack-dashboards/master/dashboards/prometheus.json"
 }
 
 resource "grafana_dashboard" "k8s-prometheus" {
@@ -160,7 +173,7 @@ resource "grafana_dashboard" "k8s-prometheus" {
 }
 
 data "http" "k8s-proxy" {
-  url = "https://raw.githubusercontent.com/BeryJu/kube-stack-dashboards/master/dasbhoards/proxy.json"
+  url = "https://raw.githubusercontent.com/BeryJu/kube-stack-dashboards/master/dashboards/proxy.json"
 }
 
 resource "grafana_dashboard" "k8s-proxy" {
@@ -168,7 +181,7 @@ resource "grafana_dashboard" "k8s-proxy" {
 }
 
 data "http" "k8s-scheduler" {
-  url = "https://raw.githubusercontent.com/BeryJu/kube-stack-dashboards/master/dasbhoards/scheduler.json"
+  url = "https://raw.githubusercontent.com/BeryJu/kube-stack-dashboards/master/dashboards/scheduler.json"
 }
 
 resource "grafana_dashboard" "k8s-scheduler" {
@@ -176,7 +189,7 @@ resource "grafana_dashboard" "k8s-scheduler" {
 }
 
 data "http" "k8s-workload-total" {
-  url = "https://raw.githubusercontent.com/BeryJu/kube-stack-dashboards/master/dasbhoards/workload-total.json"
+  url = "https://raw.githubusercontent.com/BeryJu/kube-stack-dashboards/master/dashboards/workload-total.json"
 }
 
 resource "grafana_dashboard" "k8s-workload-total" {
