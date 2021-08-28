@@ -14,14 +14,11 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: '3.9'
-      - name: Install dependecies
-        uses: VaultVulp/action-pipenv@v2.0.1
-        with:
-          command: install
-      - name: Build
-        uses: VaultVulp/action-pipenv@v2.0.1
-        with:
-          command: run python main.py
+      - name: Run
+        run: |
+          sudo pip install -U wheel pipenv
+          pipenv install --dev
+          pipenv run python main.py
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
