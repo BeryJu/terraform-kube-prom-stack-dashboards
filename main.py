@@ -16,6 +16,7 @@ def build(doc: dict):
         for file, dashboard in config_map.get("data", {}).items():
             print(f"- writing {file}")
             with open(f"{raw_output}/{file}", "w+", encoding="utf-8") as dbf:
+                dashboard = dashboard.replace('"hide": 2,', '"hide": 0,')
                 dbf.write(dashboard)
 
 def build_tf(doc: dict):
