@@ -19,7 +19,20 @@ def build(doc: dict):
                 dbf.write(dashboard)
 
 def build_tf(doc: dict):
-    main_tf = ""
+    main_tf = """terraform {
+  required_providers {
+    grafana = {
+      source = "grafana/grafana"
+      version = "~> 1.13"
+    }
+    http = {
+      source = "hashicorp/http"
+      version = "~> 2.1"
+    }
+  }
+}
+
+"""
     for config_map in doc.get("items", []):
         for file, _ in config_map.get("data", {}).items():
             slug = file.replace(".json", "")
