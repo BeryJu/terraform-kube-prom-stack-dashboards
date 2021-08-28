@@ -39,7 +39,7 @@ def build_tf(doc: dict):
             slug = file.replace(".json", "")
             main_tf += f"""
 data "http" "k8s-{slug}" {{
-  url = "https://raw.githubusercontent.com/BeryJu/kube-stack-dashboards/master/dashboards/{file}"
+  url = "https://raw.githubusercontent.com/BeryJu/kube-prom-stack-dashboards/master/dashboards/{file}"
 }}
 
 resource "grafana_dashboard" "k8s-{slug}" {{
