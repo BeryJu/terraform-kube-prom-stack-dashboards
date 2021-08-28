@@ -4,14 +4,12 @@ from yaml import load, FullLoader
 from os import makedirs
 
 raw_output = "dashboards/"
-tf_output = "module"
 
 upstream_sources = [
     "https://raw.githubusercontent.com/prometheus-operator/kube-prometheus/main/manifests/grafana-dashboardDefinitions.yaml"
 ]
 
 makedirs(raw_output, exist_ok=True)
-makedirs(tf_output, exist_ok=True)
 
 def build(doc: dict):
     for config_map in doc.get("items", []):
@@ -34,7 +32,7 @@ resource "grafana_dashboard" "k8s-{slug}" {{
   config_json = data.http.k8s-{slug}.body
 }}
 """
-    with open(f"{tf_output}/main.tf", "w+", encoding="utf-8") as mtf:
+    with open(f"main.tf", "w+", encoding="utf-8") as mtf:
         mtf.write(main_tf)
     print(f"- writing tf")
 
