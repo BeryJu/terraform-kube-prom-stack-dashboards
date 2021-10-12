@@ -69,7 +69,7 @@
                     "title": "CPU Utilisation (from requests)",
                     "tooltip": {
                         "shared": false,
-                        "sort": 0,
+                        "sort": 2,
                         "value_type": "individual"
                     },
                     "type": "singlestat",
@@ -153,7 +153,7 @@
                     "title": "CPU Utilisation (from limits)",
                     "tooltip": {
                         "shared": false,
-                        "sort": 0,
+                        "sort": 2,
                         "value_type": "individual"
                     },
                     "type": "singlestat",
@@ -237,7 +237,7 @@
                     "title": "Memory Utilisation (from requests)",
                     "tooltip": {
                         "shared": false,
-                        "sort": 0,
+                        "sort": 2,
                         "value_type": "individual"
                     },
                     "type": "singlestat",
@@ -321,7 +321,7 @@
                     "title": "Memory Utilisation (from limits)",
                     "tooltip": {
                         "shared": false,
-                        "sort": 0,
+                        "sort": 2,
                         "value_type": "individual"
                     },
                     "type": "singlestat",
@@ -456,7 +456,7 @@
                     "title": "CPU Usage",
                     "tooltip": {
                         "shared": false,
-                        "sort": 0,
+                        "sort": 2,
                         "value_type": "individual"
                     },
                     "type": "graph",
@@ -728,7 +728,7 @@
                     "title": "CPU Quota",
                     "tooltip": {
                         "shared": false,
-                        "sort": 0,
+                        "sort": 2,
                         "value_type": "individual"
                     },
                     "transform": "table",
@@ -864,7 +864,7 @@
                     "title": "Memory Usage (w/o cache)",
                     "tooltip": {
                         "shared": false,
-                        "sort": 0,
+                        "sort": 2,
                         "value_type": "individual"
                     },
                     "type": "graph",
@@ -1220,7 +1220,7 @@
                     "title": "Memory Quota",
                     "tooltip": {
                         "shared": false,
-                        "sort": 0,
+                        "sort": 2,
                         "value_type": "individual"
                     },
                     "transform": "table",
@@ -1522,7 +1522,7 @@
                     "title": "Current Network Usage",
                     "tooltip": {
                         "shared": false,
-                        "sort": 0,
+                        "sort": 2,
                         "value_type": "individual"
                     },
                     "transform": "table",
@@ -1621,7 +1621,7 @@
                     "title": "Receive Bandwidth",
                     "tooltip": {
                         "shared": false,
-                        "sort": 0,
+                        "sort": 2,
                         "value_type": "individual"
                     },
                     "type": "graph",
@@ -1707,7 +1707,7 @@
                     "title": "Transmit Bandwidth",
                     "tooltip": {
                         "shared": false,
-                        "sort": 0,
+                        "sort": 2,
                         "value_type": "individual"
                     },
                     "type": "graph",
@@ -1805,7 +1805,7 @@
                     "title": "Rate of Received Packets",
                     "tooltip": {
                         "shared": false,
-                        "sort": 0,
+                        "sort": 2,
                         "value_type": "individual"
                     },
                     "type": "graph",
@@ -1891,7 +1891,7 @@
                     "title": "Rate of Transmitted Packets",
                     "tooltip": {
                         "shared": false,
-                        "sort": 0,
+                        "sort": 2,
                         "value_type": "individual"
                     },
                     "type": "graph",
@@ -1989,7 +1989,7 @@
                     "title": "Rate of Received Packets Dropped",
                     "tooltip": {
                         "shared": false,
-                        "sort": 0,
+                        "sort": 2,
                         "value_type": "individual"
                     },
                     "type": "graph",
@@ -2075,7 +2075,7 @@
                     "title": "Rate of Transmitted Packets Dropped",
                     "tooltip": {
                         "shared": false,
-                        "sort": 0,
+                        "sort": 2,
                         "value_type": "individual"
                     },
                     "type": "graph",
@@ -2174,7 +2174,7 @@
                     "title": "IOPS(Reads+Writes)",
                     "tooltip": {
                         "shared": false,
-                        "sort": 0,
+                        "sort": 2,
                         "value_type": "individual"
                     },
                     "type": "graph",
@@ -2260,7 +2260,7 @@
                     "title": "ThroughPut(Read+Write)",
                     "tooltip": {
                         "shared": false,
-                        "sort": 0,
+                        "sort": 2,
                         "value_type": "individual"
                     },
                     "type": "graph",
@@ -2564,7 +2564,7 @@
                     "title": "Current Storage IO",
                     "tooltip": {
                         "shared": false,
-                        "sort": 0,
+                        "sort": 2,
                         "value_type": "individual"
                     },
                     "transform": "table",

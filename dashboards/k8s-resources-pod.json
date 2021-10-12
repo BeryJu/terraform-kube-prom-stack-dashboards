@@ -104,7 +104,7 @@
                     "title": "CPU Usage",
                     "tooltip": {
                         "shared": false,
-                        "sort": 0,
+                        "sort": 2,
                         "value_type": "individual"
                     },
                     "type": "graph",
@@ -209,7 +209,7 @@
                     "title": "CPU Throttling",
                     "tooltip": {
                         "shared": false,
-                        "sort": 0,
+                        "sort": 2,
                         "value_type": "individual"
                     },
                     "type": "graph",
@@ -481,7 +481,7 @@
                     "title": "CPU Quota",
                     "tooltip": {
                         "shared": false,
-                        "sort": 0,
+                        "sort": 2,
                         "value_type": "individual"
                     },
                     "transform": "table",
@@ -615,7 +615,7 @@
                     "title": "Memory Usage (WSS)",
                     "tooltip": {
                         "shared": false,
-                        "sort": 0,
+                        "sort": 2,
                         "value_type": "individual"
                     },
                     "type": "graph",
@@ -971,7 +971,7 @@
                     "title": "Memory Quota",
                     "tooltip": {
                         "shared": false,
-                        "sort": 0,
+                        "sort": 2,
                         "value_type": "individual"
                     },
                     "transform": "table",
@@ -1071,7 +1071,7 @@
                     "title": "Receive Bandwidth",
                     "tooltip": {
                         "shared": false,
-                        "sort": 0,
+                        "sort": 2,
                         "value_type": "individual"
                     },
                     "type": "graph",
@@ -1158,7 +1158,7 @@
                     "title": "Transmit Bandwidth",
                     "tooltip": {
                         "shared": false,
-                        "sort": 0,
+                        "sort": 2,
                         "value_type": "individual"
                     },
                     "type": "graph",
@@ -1257,7 +1257,7 @@
                     "title": "Rate of Received Packets",
                     "tooltip": {
                         "shared": false,
-                        "sort": 0,
+                        "sort": 2,
                         "value_type": "individual"
                     },
                     "type": "graph",
@@ -1344,7 +1344,7 @@
                     "title": "Rate of Transmitted Packets",
                     "tooltip": {
                         "shared": false,
-                        "sort": 0,
+                        "sort": 2,
                         "value_type": "individual"
                     },
                     "type": "graph",
@@ -1443,7 +1443,7 @@
                     "title": "Rate of Received Packets Dropped",
                     "tooltip": {
                         "shared": false,
-                        "sort": 0,
+                        "sort": 2,
                         "value_type": "individual"
                     },
                     "type": "graph",
@@ -1530,7 +1530,7 @@
                     "title": "Rate of Transmitted Packets Dropped",
                     "tooltip": {
                         "shared": false,
-                        "sort": 0,
+                        "sort": 2,
                         "value_type": "individual"
                     },
                     "type": "graph",
@@ -1637,7 +1637,7 @@
                     "title": "IOPS",
                     "tooltip": {
                         "shared": false,
-                        "sort": 0,
+                        "sort": 2,
                         "value_type": "individual"
                     },
                     "type": "graph",
@@ -1731,7 +1731,7 @@
                     "title": "ThroughPut",
                     "tooltip": {
                         "shared": false,
-                        "sort": 0,
+                        "sort": 2,
                         "value_type": "individual"
                     },
                     "type": "graph",
@@ -1830,7 +1830,7 @@
                     "title": "IOPS(Reads+Writes)",
                     "tooltip": {
                         "shared": false,
-                        "sort": 0,
+                        "sort": 2,
                         "value_type": "individual"
                     },
                     "type": "graph",
@@ -1916,7 +1916,7 @@
                     "title": "ThroughPut(Read+Write)",
                     "tooltip": {
                         "shared": false,
-                        "sort": 0,
+                        "sort": 2,
                         "value_type": "individual"
                     },
                     "type": "graph",
@@ -2220,7 +2220,7 @@
                     "title": "Current Storage IO",
                     "tooltip": {
                         "shared": false,
-                        "sort": 0,
+                        "sort": 2,
                         "value_type": "individual"
                     },
                     "transform": "table",
