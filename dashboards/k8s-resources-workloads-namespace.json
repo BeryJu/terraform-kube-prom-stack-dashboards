@@ -108,7 +108,7 @@
                     "title": "CPU Usage",
                     "tooltip": {
                         "shared": false,
-                        "sort": 0,
+                        "sort": 2,
                         "value_type": "individual"
                     },
                     "type": "graph",
@@ -427,7 +427,7 @@
                     "title": "CPU Quota",
                     "tooltip": {
                         "shared": false,
-                        "sort": 0,
+                        "sort": 2,
                         "value_type": "individual"
                     },
                     "transform": "table",
@@ -563,7 +563,7 @@
                     "title": "Memory Usage",
                     "tooltip": {
                         "shared": false,
-                        "sort": 0,
+                        "sort": 2,
                         "value_type": "individual"
                     },
                     "type": "graph",
@@ -882,7 +882,7 @@
                     "title": "Memory Quota",
                     "tooltip": {
                         "shared": false,
-                        "sort": 0,
+                        "sort": 2,
                         "value_type": "individual"
                     },
                     "transform": "table",
@@ -1203,7 +1203,7 @@
                     "title": "Current Network Usage",
                     "tooltip": {
                         "shared": false,
-                        "sort": 0,
+                        "sort": 2,
                         "value_type": "individual"
                     },
                     "transform": "table",
@@ -1302,7 +1302,7 @@
                     "title": "Receive Bandwidth",
                     "tooltip": {
                         "shared": false,
-                        "sort": 0,
+                        "sort": 2,
                         "value_type": "individual"
                     },
                     "type": "graph",
@@ -1388,7 +1388,7 @@
                     "title": "Transmit Bandwidth",
                     "tooltip": {
                         "shared": false,
-                        "sort": 0,
+                        "sort": 2,
                         "value_type": "individual"
                     },
                     "type": "graph",
@@ -1486,7 +1486,7 @@
                     "title": "Average Container Bandwidth by Workload: Received",
                     "tooltip": {
                         "shared": false,
-                        "sort": 0,
+                        "sort": 2,
                         "value_type": "individual"
                     },
                     "type": "graph",
@@ -1572,7 +1572,7 @@
                     "title": "Average Container Bandwidth by Workload: Transmitted",
                     "tooltip": {
                         "shared": false,
-                        "sort": 0,
+                        "sort": 2,
                         "value_type": "individual"
                     },
                     "type": "graph",
@@ -1670,7 +1670,7 @@
                     "title": "Rate of Received Packets",
                     "tooltip": {
                         "shared": false,
-                        "sort": 0,
+                        "sort": 2,
                         "value_type": "individual"
                     },
                     "type": "graph",
@@ -1756,7 +1756,7 @@
                     "title": "Rate of Transmitted Packets",
                     "tooltip": {
                         "shared": false,
-                        "sort": 0,
+                        "sort": 2,
                         "value_type": "individual"
                     },
                     "type": "graph",
@@ -1854,7 +1854,7 @@
                     "title": "Rate of Received Packets Dropped",
                     "tooltip": {
                         "shared": false,
-                        "sort": 0,
+                        "sort": 2,
                         "value_type": "individual"
                     },
                     "type": "graph",
@@ -1940,7 +1940,7 @@
                     "title": "Rate of Transmitted Packets Dropped",
                     "tooltip": {
                         "shared": false,
-                        "sort": 0,
+                        "sort": 2,
                         "value_type": "individual"
                     },
                     "type": "graph",
