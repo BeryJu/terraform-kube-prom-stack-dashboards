@@ -878,7 +878,7 @@
                 "options": [
 
                 ],
-                "query": "label_values(kube_pod_info, cluster)",
+                "query": "label_values(up{job=\"kube-state-metrics\"}, cluster)",
                 "refresh": 2,
                 "regex": "",
                 "sort": 1,
@@ -905,7 +905,7 @@
                 "options": [
 
                 ],
-                "query": "label_values(kube_pod_info{cluster=\"$cluster\"}, node)",
+                "query": "label_values(up{job=\"kube-state-metrics\", cluster=\"$cluster\"}, node)",
                 "refresh": 2,
                 "regex": "",
                 "sort": 1,
