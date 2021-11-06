@@ -16,7 +16,7 @@ jobs:
           python-version: '3.9'
       - name: Run
         run: |
-          sudo pip install -U wheel pipenv==2021.11.5
+          sudo pip install -U wheel pipenv==2021.5.29
           pipenv install --dev
           pipenv run python main.py
       - name: Create Pull Request
