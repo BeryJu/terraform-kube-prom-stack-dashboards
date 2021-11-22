@@ -1076,7 +1076,7 @@
                     "steppedLine": false,
                     "targets": [
                         {
-                            "expr": "sum(rate(workqueue_adds_total{job=\"apiserver\", instance=~\"$instance\", cluster=\"$cluster\"}[5m])) by (instance, name)",
+                            "expr": "sum(rate(workqueue_adds_total{job=\"apiserver\", instance=~\"$instance\", cluster=\"$cluster\"}[$__rate_interval])) by (instance, name)",
                             "format": "time_series",
                             "intervalFactor": 2,
                             "legendFormat": "{{instance}} {{name}}",
@@ -1169,7 +1169,7 @@
                     "steppedLine": false,
                     "targets": [
                         {
-                            "expr": "sum(rate(workqueue_depth{job=\"apiserver\", instance=~\"$instance\", cluster=\"$cluster\"}[5m])) by (instance, name)",
+                            "expr": "sum(rate(workqueue_depth{job=\"apiserver\", instance=~\"$instance\", cluster=\"$cluster\"}[$__rate_interval])) by (instance, name)",
                             "format": "time_series",
                             "intervalFactor": 2,
                             "legendFormat": "{{instance}} {{name}}",
@@ -1262,7 +1262,7 @@
                     "steppedLine": false,
                     "targets": [
                         {
-                            "expr": "histogram_quantile(0.99, sum(rate(workqueue_queue_duration_seconds_bucket{job=\"apiserver\", instance=~\"$instance\", cluster=\"$cluster\"}[5m])) by (instance, name, le))",
+                            "expr": "histogram_quantile(0.99, sum(rate(workqueue_queue_duration_seconds_bucket{job=\"apiserver\", instance=~\"$instance\", cluster=\"$cluster\"}[$__rate_interval])) by (instance, name, le))",
                             "format": "time_series",
                             "intervalFactor": 2,
                             "legendFormat": "{{instance}} {{name}}",
@@ -1461,7 +1461,7 @@
                     "steppedLine": false,
                     "targets": [
                         {
-                            "expr": "rate(process_cpu_seconds_total{job=\"apiserver\",instance=~\"$instance\", cluster=\"$cluster\"}[5m])",
+                            "expr": "rate(process_cpu_seconds_total{job=\"apiserver\",instance=~\"$instance\", cluster=\"$cluster\"}[$__rate_interval])",
                             "format": "time_series",
                             "intervalFactor": 2,
                             "legendFormat": "{{instance}}",
@@ -1624,7 +1624,7 @@
                     "value": "default"
                 },
                 "hide": 0,
-                "label": null,
+                "label": "Data Source",
                 "name": "datasource",
                 "options": [
 
