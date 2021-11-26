@@ -46,7 +46,11 @@
 
                     },
                     "id": 2,
-                    "interval": null,
+                    "interval": "1m",
+                    "legend": {
+                        "alignAsTable": true,
+                        "rightSide": true
+                    },
                     "links": [
 
                     ],
@@ -122,6 +126,7 @@
 
                     },
                     "id": 3,
+                    "interval": "1m",
                     "legend": {
                         "alignAsTable": true,
                         "avg": false,
@@ -236,6 +241,7 @@
 
                     },
                     "id": 4,
+                    "interval": "1m",
                     "legend": {
                         "alignAsTable": true,
                         "avg": false,
@@ -363,13 +369,14 @@
 
                     },
                     "id": 5,
+                    "interval": "1m",
                     "legend": {
-                        "alignAsTable": false,
+                        "alignAsTable": true,
                         "avg": false,
                         "current": false,
                         "max": false,
                         "min": false,
-                        "rightSide": false,
+                        "rightSide": true,
                         "show": true,
                         "sideWidth": null,
                         "total": false,
@@ -477,13 +484,14 @@
 
                     },
                     "id": 6,
+                    "interval": "1m",
                     "legend": {
-                        "alignAsTable": false,
+                        "alignAsTable": true,
                         "avg": false,
                         "current": false,
                         "max": false,
                         "min": false,
-                        "rightSide": false,
+                        "rightSide": true,
                         "show": true,
                         "sideWidth": null,
                         "total": false,
@@ -583,6 +591,7 @@
 
                     },
                     "id": 7,
+                    "interval": "1m",
                     "legend": {
                         "alignAsTable": true,
                         "avg": false,
@@ -689,13 +698,14 @@
 
                     },
                     "id": 8,
+                    "interval": "1m",
                     "legend": {
-                        "alignAsTable": false,
+                        "alignAsTable": true,
                         "avg": false,
                         "current": false,
                         "max": false,
                         "min": false,
-                        "rightSide": false,
+                        "rightSide": true,
                         "show": true,
                         "sideWidth": null,
                         "total": false,
@@ -782,13 +792,14 @@
 
                     },
                     "id": 9,
+                    "interval": "1m",
                     "legend": {
-                        "alignAsTable": false,
+                        "alignAsTable": true,
                         "avg": false,
                         "current": false,
                         "max": false,
                         "min": false,
-                        "rightSide": false,
+                        "rightSide": true,
                         "show": true,
                         "sideWidth": null,
                         "total": false,
@@ -875,13 +886,14 @@
 
                     },
                     "id": 10,
+                    "interval": "1m",
                     "legend": {
-                        "alignAsTable": false,
+                        "alignAsTable": true,
                         "avg": false,
                         "current": false,
                         "max": false,
                         "min": false,
-                        "rightSide": false,
+                        "rightSide": true,
                         "show": true,
                         "sideWidth": null,
                         "total": false,
