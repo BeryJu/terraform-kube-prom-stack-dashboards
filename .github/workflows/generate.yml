@@ -16,9 +16,9 @@ jobs:
           python-version: '3.9'
       - name: Run
         run: |
-          sudo pip install -U wheel pipenv==2021.5.29
-          pipenv install --dev
-          pipenv run python main.py
+          sudo pip install -U wheel poetry
+          poetry install
+          poetry run python main.py
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
