@@ -54,6 +54,15 @@ resource "grafana_dashboard" "k8s-controller-manager" {
   config_json = data.http.k8s-controller-manager.body
 }
 
+data "http" "k8s-grafana-overview" {
+  url = "https://raw.githubusercontent.com/BeryJu/kube-prom-stack-dashboards/master/dashboards/grafana-overview.json"
+}
+
+resource "grafana_dashboard" "k8s-grafana-overview" {
+  folder      = var.grafana_folder
+  config_json = data.http.k8s-grafana-overview.body
+}
+
 data "http" "k8s-k8s-resources-cluster" {
   url = "https://raw.githubusercontent.com/BeryJu/kube-prom-stack-dashboards/master/dashboards/k8s-resources-cluster.json"
 }
