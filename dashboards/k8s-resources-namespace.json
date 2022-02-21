@@ -1,16 +1,12 @@
 {
     "annotations": {
-        "list": [
-
-        ]
+        "list": []
     },
     "editable": true,
     "gnetId": null,
     "graphTooltip": 0,
     "hideControls": false,
-    "links": [
-
-    ],
+    "links": [],
     "refresh": "10s",
     "rows": [
         {
@@ -18,9 +14,7 @@
             "height": "100px",
             "panels": [
                 {
-                    "aliasColors": {
-
-                    },
+                    "aliasColors": {},
                     "bars": false,
                     "dashLength": 10,
                     "dashes": false,
@@ -42,17 +36,13 @@
                     },
                     "lines": true,
                     "linewidth": 1,
-                    "links": [
-
-                    ],
+                    "links": [],
                     "nullPointMode": "null as zero",
                     "percentage": false,
                     "pointradius": 5,
                     "points": false,
                     "renderer": "flot",
-                    "seriesOverrides": [
-
-                    ],
+                    "seriesOverrides": [],
                     "spaceLength": 10,
                     "span": 3,
                     "stack": false,
@@ -81,9 +71,7 @@
                         "mode": "time",
                         "name": null,
                         "show": true,
-                        "values": [
-
-                        ]
+                        "values": []
                     },
                     "yaxes": [
                         {
@@ -105,9 +93,7 @@
                     ]
                 },
                 {
-                    "aliasColors": {
-
-                    },
+                    "aliasColors": {},
                     "bars": false,
                     "dashLength": 10,
                     "dashes": false,
@@ -129,17 +115,13 @@
                     },
                     "lines": true,
                     "linewidth": 1,
-                    "links": [
-
-                    ],
+                    "links": [],
                     "nullPointMode": "null as zero",
                     "percentage": false,
                     "pointradius": 5,
                     "points": false,
                     "renderer": "flot",
-                    "seriesOverrides": [
-
-                    ],
+                    "seriesOverrides": [],
                     "spaceLength": 10,
                     "span": 3,
                     "stack": false,
@@ -168,9 +150,7 @@
                         "mode": "time",
                         "name": null,
                         "show": true,
-                        "values": [
-
-                        ]
+                        "values": []
                     },
                     "yaxes": [
                         {
@@ -192,9 +172,7 @@
                     ]
                 },
                 {
-                    "aliasColors": {
-
-                    },
+                    "aliasColors": {},
                     "bars": false,
                     "dashLength": 10,
                     "dashes": false,
@@ -216,17 +194,13 @@
                     },
                     "lines": true,
                     "linewidth": 1,
-                    "links": [
-
-                    ],
+                    "links": [],
                     "nullPointMode": "null as zero",
                     "percentage": false,
                     "pointradius": 5,
                     "points": false,
                     "renderer": "flot",
-                    "seriesOverrides": [
-
-                    ],
+                    "seriesOverrides": [],
                     "spaceLength": 10,
                     "span": 3,
                     "stack": false,
@@ -255,9 +229,7 @@
                         "mode": "time",
                         "name": null,
                         "show": true,
-                        "values": [
-
-                        ]
+                        "values": []
                     },
                     "yaxes": [
                         {
@@ -279,9 +251,7 @@
                     ]
                 },
                 {
-                    "aliasColors": {
-
-                    },
+                    "aliasColors": {},
                     "bars": false,
                     "dashLength": 10,
                     "dashes": false,
@@ -303,17 +273,13 @@
                     },
                     "lines": true,
                     "linewidth": 1,
-                    "links": [
-
-                    ],
+                    "links": [],
                     "nullPointMode": "null as zero",
                     "percentage": false,
                     "pointradius": 5,
                     "points": false,
                     "renderer": "flot",
-                    "seriesOverrides": [
-
-                    ],
+                    "seriesOverrides": [],
                     "spaceLength": 10,
                     "span": 3,
                     "stack": false,
@@ -342,9 +308,7 @@
                         "mode": "time",
                         "name": null,
                         "show": true,
-                        "values": [
-
-                        ]
+                        "values": []
                     },
                     "yaxes": [
                         {
@@ -378,9 +342,7 @@
             "height": "250px",
             "panels": [
                 {
-                    "aliasColors": {
-
-                    },
+                    "aliasColors": {},
                     "bars": false,
                     "dashLength": 10,
                     "dashes": false,
@@ -401,9 +363,7 @@
                     },
                     "lines": true,
                     "linewidth": 0,
-                    "links": [
-
-                    ],
+                    "links": [],
                     "nullPointMode": "null as zero",
                     "percentage": false,
                     "pointradius": 5,
@@ -463,9 +423,7 @@
                             "step": 10
                         }
                     ],
-                    "thresholds": [
-
-                    ],
+                    "thresholds": [],
                     "timeFrom": null,
                     "timeShift": null,
                     "title": "CPU Usage",
@@ -480,9 +438,7 @@
                         "mode": "time",
                         "name": null,
                         "show": true,
-                        "values": [
-
-                        ]
+                        "values": []
                     },
                     "yaxes": [
                         {
@@ -516,9 +472,7 @@
             "height": "250px",
             "panels": [
                 {
-                    "aliasColors": {
-
-                    },
+                    "aliasColors": {},
                     "bars": false,
                     "dashLength": 10,
                     "dashes": false,
@@ -539,17 +493,13 @@
                     },
                     "lines": true,
                     "linewidth": 1,
-                    "links": [
-
-                    ],
+                    "links": [],
                     "nullPointMode": "null as zero",
                     "percentage": false,
                     "pointradius": 5,
                     "points": false,
                     "renderer": "flot",
-                    "seriesOverrides": [
-
-                    ],
+                    "seriesOverrides": [],
                     "spaceLength": 10,
                     "span": 12,
                     "stack": false,
@@ -564,9 +514,7 @@
                         {
                             "alias": "CPU Usage",
                             "colorMode": null,
-                            "colors": [
-
-                            ],
+                            "colors": [],
                             "dateFormat": "YYYY-MM-DD HH:mm:ss",
                             "decimals": 2,
                             "link": false,
@@ -574,18 +522,14 @@
                             "linkTooltip": "Drill down",
                             "linkUrl": "",
                             "pattern": "Value #A",
-                            "thresholds": [
-
-                            ],
+                            "thresholds": [],
                             "type": "number",
                             "unit": "short"
                         },
                         {
                             "alias": "CPU Requests",
                             "colorMode": null,
-                            "colors": [
-
-                            ],
+                            "colors": [],
                             "dateFormat": "YYYY-MM-DD HH:mm:ss",
                             "decimals": 2,
                             "link": false,
@@ -593,18 +537,14 @@
                             "linkTooltip": "Drill down",
                             "linkUrl": "",
                             "pattern": "Value #B",
-                            "thresholds": [
-
-                            ],
+                            "thresholds": [],
                             "type": "number",
                             "unit": "short"
                         },
                         {
                             "alias": "CPU Requests %",
                             "colorMode": null,
-                            "colors": [
-
-                            ],
+                            "colors": [],
                             "dateFormat": "YYYY-MM-DD HH:mm:ss",
                             "decimals": 2,
                             "link": false,
@@ -612,18 +552,14 @@
                             "linkTooltip": "Drill down",
                             "linkUrl": "",
                             "pattern": "Value #C",
-                            "thresholds": [
-
-                            ],
+                            "thresholds": [],
                             "type": "number",
                             "unit": "percentunit"
                         },
                         {
                             "alias": "CPU Limits",
                             "colorMode": null,
-                            "colors": [
-
-                            ],
+                            "colors": [],
                             "dateFormat": "YYYY-MM-DD HH:mm:ss",
                             "decimals": 2,
                             "link": false,
@@ -631,18 +567,14 @@
                             "linkTooltip": "Drill down",
                             "linkUrl": "",
                             "pattern": "Value #D",
-                            "thresholds": [
-
-                            ],
+                            "thresholds": [],
                             "type": "number",
                             "unit": "short"
                         },
                         {
                             "alias": "CPU Limits %",
                             "colorMode": null,
-                            "colors": [
-
-                            ],
+                            "colors": [],
                             "dateFormat": "YYYY-MM-DD HH:mm:ss",
                             "decimals": 2,
                             "link": false,
@@ -650,18 +582,14 @@
                             "linkTooltip": "Drill down",
                             "linkUrl": "",
                             "pattern": "Value #E",
-                            "thresholds": [
-
-                            ],
+                            "thresholds": [],
                             "type": "number",
                             "unit": "percentunit"
                         },
                         {
                             "alias": "Pod",
                             "colorMode": null,
-                            "colors": [
-
-                            ],
+                            "colors": [],
                             "dateFormat": "YYYY-MM-DD HH:mm:ss",
                             "decimals": 2,
                             "link": true,
@@ -669,24 +597,18 @@
                             "linkTooltip": "Drill down",
                             "linkUrl": "/d/6581e46e4e5c7ba40a07646395ef7b23/k8s-resources-pod?var-datasource=$datasource&var-cluster=$cluster&var-namespace=$namespace&var-pod=$__cell",
                             "pattern": "pod",
-                            "thresholds": [
-
-                            ],
+                            "thresholds": [],
                             "type": "number",
                             "unit": "short"
                         },
                         {
                             "alias": "",
                             "colorMode": null,
-                            "colors": [
-
-                            ],
+                            "colors": [],
                             "dateFormat": "YYYY-MM-DD HH:mm:ss",
                             "decimals": 2,
                             "pattern": "/.*/",
-                            "thresholds": [
-
-                            ],
+                            "thresholds": [],
                             "type": "string",
                             "unit": "short"
                         }
@@ -738,9 +660,7 @@
                             "step": 10
                         }
                     ],
-                    "thresholds": [
-
-                    ],
+                    "thresholds": [],
                     "timeFrom": null,
                     "timeShift": null,
                     "title": "CPU Quota",
@@ -756,9 +676,7 @@
                         "mode": "time",
                         "name": null,
                         "show": true,
-                        "values": [
-
-                        ]
+                        "values": []
                     },
                     "yaxes": [
                         {
@@ -792,9 +710,7 @@
             "height": "250px",
             "panels": [
                 {
-                    "aliasColors": {
-
-                    },
+                    "aliasColors": {},
                     "bars": false,
                     "dashLength": 10,
                     "dashes": false,
@@ -815,9 +731,7 @@
                     },
                     "lines": true,
                     "linewidth": 0,
-                    "links": [
-
-                    ],
+                    "links": [],
                     "nullPointMode": "null as zero",
                     "percentage": false,
                     "pointradius": 5,
@@ -877,9 +791,7 @@
                             "step": 10
                         }
                     ],
-                    "thresholds": [
-
-                    ],
+                    "thresholds": [],
                     "timeFrom": null,
                     "timeShift": null,
                     "title": "Memory Usage (w/o cache)",
@@ -894,9 +806,7 @@
                         "mode": "time",
                         "name": null,
                         "show": true,
-                        "values": [
-
-                        ]
+                        "values": []
                     },
                     "yaxes": [
                         {
@@ -930,9 +840,7 @@
             "height": "250px",
             "panels": [
                 {
-                    "aliasColors": {
-
-                    },
+                    "aliasColors": {},
                     "bars": false,
                     "dashLength": 10,
                     "dashes": false,
@@ -953,17 +861,13 @@
                     },
                     "lines": true,
                     "linewidth": 1,
-                    "links": [
-
-                    ],
+                    "links": [],
                     "nullPointMode": "null as zero",
                     "percentage": false,
                     "pointradius": 5,
                     "points": false,
                     "renderer": "flot",
-                    "seriesOverrides": [
-
-                    ],
+                    "seriesOverrides": [],
                     "spaceLength": 10,
                     "span": 12,
                     "stack": false,
@@ -978,9 +882,7 @@
                         {
                             "alias": "Memory Usage",
                             "colorMode": null,
-                            "colors": [
-
-                            ],
+                            "colors": [],
                             "dateFormat": "YYYY-MM-DD HH:mm:ss",
                             "decimals": 2,
                             "link": false,
@@ -988,18 +890,14 @@
                             "linkTooltip": "Drill down",
                             "linkUrl": "",
                             "pattern": "Value #A",
-                            "thresholds": [
-
-                            ],
+                            "thresholds": [],
                             "type": "number",
                             "unit": "bytes"
                         },
                         {
                             "alias": "Memory Requests",
                             "colorMode": null,
-                            "colors": [
-
-                            ],
+                            "colors": [],
                             "dateFormat": "YYYY-MM-DD HH:mm:ss",
                             "decimals": 2,
                             "link": false,
@@ -1007,18 +905,14 @@
                             "linkTooltip": "Drill down",
                             "linkUrl": "",
                             "pattern": "Value #B",
-                            "thresholds": [
-
-                            ],
+                            "thresholds": [],
                             "type": "number",
                             "unit": "bytes"
                         },
                         {
                             "alias": "Memory Requests %",
                             "colorMode": null,
-                            "colors": [
-
-                            ],
+                            "colors": [],
                             "dateFormat": "YYYY-MM-DD HH:mm:ss",
                             "decimals": 2,
                             "link": false,
@@ -1026,18 +920,14 @@
                             "linkTooltip": "Drill down",
                             "linkUrl": "",
                             "pattern": "Value #C",
-                            "thresholds": [
-
-                            ],
+                            "thresholds": [],
                             "type": "number",
                             "unit": "percentunit"
                         },
                         {
                             "alias": "Memory Limits",
                             "colorMode": null,
-                            "colors": [
-
-                            ],
+                            "colors": [],
                             "dateFormat": "YYYY-MM-DD HH:mm:ss",
                             "decimals": 2,
                             "link": false,
@@ -1045,18 +935,14 @@
                             "linkTooltip": "Drill down",
                             "linkUrl": "",
                             "pattern": "Value #D",
-                            "thresholds": [
-
-                            ],
+                            "thresholds": [],
                             "type": "number",
                             "unit": "bytes"
                         },
                         {
                             "alias": "Memory Limits %",
                             "colorMode": null,
-                            "colors": [
-
-                            ],
+                            "colors": [],
                             "dateFormat": "YYYY-MM-DD HH:mm:ss",
                             "decimals": 2,
                             "link": false,
@@ -1064,18 +950,14 @@
                             "linkTooltip": "Drill down",
                             "linkUrl": "",
                             "pattern": "Value #E",
-                            "thresholds": [
-
-                            ],
+                            "thresholds": [],
                             "type": "number",
                             "unit": "percentunit"
                         },
                         {
                             "alias": "Memory Usage (RSS)",
                             "colorMode": null,
-                            "colors": [
-
-                            ],
+                            "colors": [],
                             "dateFormat": "YYYY-MM-DD HH:mm:ss",
                             "decimals": 2,
                             "link": false,
@@ -1083,18 +965,14 @@
                             "linkTooltip": "Drill down",
                             "linkUrl": "",
                             "pattern": "Value #F",
-                            "thresholds": [
-
-                            ],
+                            "thresholds": [],
                             "type": "number",
                             "unit": "bytes"
                         },
                         {
                             "alias": "Memory Usage (Cache)",
                             "colorMode": null,
-                            "colors": [
-
-                            ],
+                            "colors": [],
                             "dateFormat": "YYYY-MM-DD HH:mm:ss",
                             "decimals": 2,
                             "link": false,
@@ -1102,18 +980,14 @@
                             "linkTooltip": "Drill down",
                             "linkUrl": "",
                             "pattern": "Value #G",
-                            "thresholds": [
-
-                            ],
+                            "thresholds": [],
                             "type": "number",
                             "unit": "bytes"
                         },
                         {
                             "alias": "Memory Usage (Swap)",
                             "colorMode": null,
-                            "colors": [
-
-                            ],
+                            "colors": [],
                             "dateFormat": "YYYY-MM-DD HH:mm:ss",
                             "decimals": 2,
                             "link": false,
@@ -1121,18 +995,14 @@
                             "linkTooltip": "Drill down",
                             "linkUrl": "",
                             "pattern": "Value #H",
-                            "thresholds": [
-
-                            ],
+                            "thresholds": [],
                             "type": "number",
                             "unit": "bytes"
                         },
                         {
                             "alias": "Pod",
                             "colorMode": null,
-                            "colors": [
-
-                            ],
+                            "colors": [],
                             "dateFormat": "YYYY-MM-DD HH:mm:ss",
                             "decimals": 2,
                             "link": true,
@@ -1140,24 +1010,18 @@
                             "linkTooltip": "Drill down",
                             "linkUrl": "/d/6581e46e4e5c7ba40a07646395ef7b23/k8s-resources-pod?var-datasource=$datasource&var-cluster=$cluster&var-namespace=$namespace&var-pod=$__cell",
                             "pattern": "pod",
-                            "thresholds": [
-
-                            ],
+                            "thresholds": [],
                             "type": "number",
                             "unit": "short"
                         },
                         {
                             "alias": "",
                             "colorMode": null,
-                            "colors": [
-
-                            ],
+                            "colors": [],
                             "dateFormat": "YYYY-MM-DD HH:mm:ss",
                             "decimals": 2,
                             "pattern": "/.*/",
-                            "thresholds": [
-
-                            ],
+                            "thresholds": [],
                             "type": "string",
                             "unit": "short"
                         }
@@ -1236,9 +1100,7 @@
                             "step": 10
                         }
                     ],
-                    "thresholds": [
-
-                    ],
+                    "thresholds": [],
                     "timeFrom": null,
                     "timeShift": null,
                     "title": "Memory Quota",
@@ -1254,9 +1116,7 @@
                         "mode": "time",
                         "name": null,
                         "show": true,
-                        "values": [
-
-                        ]
+                        "values": []
                     },
                     "yaxes": [
                         {
@@ -1290,9 +1150,7 @@
             "height": "250px",
             "panels": [
                 {
-                    "aliasColors": {
-
-                    },
+                    "aliasColors": {},
                     "bars": false,
                     "dashLength": 10,
                     "dashes": false,
@@ -1313,17 +1171,13 @@
                     },
                     "lines": true,
                     "linewidth": 1,
-                    "links": [
-
-                    ],
+                    "links": [],
                     "nullPointMode": "null as zero",
                     "percentage": false,
                     "pointradius": 5,
                     "points": false,
                     "renderer": "flot",
-                    "seriesOverrides": [
-
-                    ],
+                    "seriesOverrides": [],
                     "spaceLength": 10,
                     "span": 12,
                     "stack": false,
@@ -1338,9 +1192,7 @@
                         {
                             "alias": "Current Receive Bandwidth",
                             "colorMode": null,
-                            "colors": [
-
-                            ],
+                            "colors": [],
                             "dateFormat": "YYYY-MM-DD HH:mm:ss",
                             "decimals": 2,
                             "link": false,
@@ -1348,18 +1200,14 @@
                             "linkTooltip": "Drill down",
                             "linkUrl": "",
                             "pattern": "Value #A",
-                            "thresholds": [
-
-                            ],
+                            "thresholds": [],
                             "type": "number",
                             "unit": "Bps"
                         },
                         {
                             "alias": "Current Transmit Bandwidth",
                             "colorMode": null,
-                            "colors": [
-
-                            ],
+                            "colors": [],
                             "dateFormat": "YYYY-MM-DD HH:mm:ss",
                             "decimals": 2,
                             "link": false,
@@ -1367,18 +1215,14 @@
                             "linkTooltip": "Drill down",
                             "linkUrl": "",
                             "pattern": "Value #B",
-                            "thresholds": [
-
-                            ],
+                            "thresholds": [],
                             "type": "number",
                             "unit": "Bps"
                         },
                         {
                             "alias": "Rate of Received Packets",
                             "colorMode": null,
-                            "colors": [
-
-                            ],
+                            "colors": [],
                             "dateFormat": "YYYY-MM-DD HH:mm:ss",
                             "decimals": 2,
                             "link": false,
@@ -1386,18 +1230,14 @@
                             "linkTooltip": "Drill down",
                             "linkUrl": "",
                             "pattern": "Value #C",
-                            "thresholds": [
-
-                            ],
+                            "thresholds": [],
                             "type": "number",
                             "unit": "pps"
                         },
                         {
                             "alias": "Rate of Transmitted Packets",
                             "colorMode": null,
-                            "colors": [
-
-                            ],
+                            "colors": [],
                             "dateFormat": "YYYY-MM-DD HH:mm:ss",
                             "decimals": 2,
                             "link": false,
@@ -1405,18 +1245,14 @@
                             "linkTooltip": "Drill down",
                             "linkUrl": "",
                             "pattern": "Value #D",
-                            "thresholds": [
-
-                            ],
+                            "thresholds": [],
                             "type": "number",
                             "unit": "pps"
                         },
                         {
                             "alias": "Rate of Received Packets Dropped",
                             "colorMode": null,
-                            "colors": [
-
-                            ],
+                            "colors": [],
                             "dateFormat": "YYYY-MM-DD HH:mm:ss",
                             "decimals": 2,
                             "link": false,
@@ -1424,18 +1260,14 @@
                             "linkTooltip": "Drill down",
                             "linkUrl": "",
                             "pattern": "Value #E",
-                            "thresholds": [
-
-                            ],
+                            "thresholds": [],
                             "type": "number",
                             "unit": "pps"
                         },
                         {
                             "alias": "Rate of Transmitted Packets Dropped",
                             "colorMode": null,
-                            "colors": [
-
-                            ],
+                            "colors": [],
                             "dateFormat": "YYYY-MM-DD HH:mm:ss",
                             "decimals": 2,
                             "link": false,
@@ -1443,18 +1275,14 @@
                             "linkTooltip": "Drill down",
                             "linkUrl": "",
                             "pattern": "Value #F",
-                            "thresholds": [
-
-                            ],
+                            "thresholds": [],
                             "type": "number",
                             "unit": "pps"
                         },
                         {
                             "alias": "Pod",
                             "colorMode": null,
-                            "colors": [
-
-                            ],
+                            "colors": [],
                             "dateFormat": "YYYY-MM-DD HH:mm:ss",
                             "decimals": 2,
                             "link": true,
@@ -1462,24 +1290,18 @@
                             "linkTooltip": "Drill down to pods",
                             "linkUrl": "/d/6581e46e4e5c7ba40a07646395ef7b23/k8s-resources-pod?var-datasource=$datasource&var-cluster=$cluster&var-namespace=$namespace&var-pod=$__cell",
                             "pattern": "pod",
-                            "thresholds": [
-
-                            ],
+                            "thresholds": [],
                             "type": "number",
                             "unit": "short"
                         },
                         {
                             "alias": "",
                             "colorMode": null,
-                            "colors": [
-
-                            ],
+                            "colors": [],
                             "dateFormat": "YYYY-MM-DD HH:mm:ss",
                             "decimals": 2,
                             "pattern": "/.*/",
-                            "thresholds": [
-
-                            ],
+                            "thresholds": [],
                             "type": "string",
                             "unit": "short"
                         }
@@ -1540,9 +1362,7 @@
                             "step": 10
                         }
                     ],
-                    "thresholds": [
-
-                    ],
+                    "thresholds": [],
                     "timeFrom": null,
                     "timeShift": null,
                     "title": "Current Network Usage",
@@ -1558,9 +1378,7 @@
                         "mode": "time",
                         "name": null,
                         "show": true,
-                        "values": [
-
-                        ]
+                        "values": []
                     },
                     "yaxes": [
                         {
@@ -1594,9 +1412,7 @@
             "height": "250px",
             "panels": [
                 {
-                    "aliasColors": {
-
-                    },
+                    "aliasColors": {},
                     "bars": false,
                     "dashLength": 10,
                     "dashes": false,
@@ -1617,17 +1433,13 @@
                     },
                     "lines": true,
                     "linewidth": 0,
-                    "links": [
-
-                    ],
+                    "links": [],
                     "nullPointMode": "null as zero",
                     "percentage": false,
                     "pointradius": 5,
                     "points": false,
                     "renderer": "flot",
-                    "seriesOverrides": [
-
-                    ],
+                    "seriesOverrides": [],
                     "spaceLength": 10,
                     "span": 6,
                     "stack": true,
@@ -1642,9 +1454,7 @@
                             "step": 10
                         }
                     ],
-                    "thresholds": [
-
-                    ],
+                    "thresholds": [],
                     "timeFrom": null,
                     "timeShift": null,
                     "title": "Receive Bandwidth",
@@ -1659,9 +1469,7 @@
                         "mode": "time",
                         "name": null,
                         "show": true,
-                        "values": [
-
-                        ]
+                        "values": []
                     },
                     "yaxes": [
                         {
@@ -1683,9 +1491,7 @@
                     ]
                 },
                 {
-                    "aliasColors": {
-
-                    },
+                    "aliasColors": {},
                     "bars": false,
                     "dashLength": 10,
                     "dashes": false,
@@ -1706,17 +1512,13 @@
                     },
                     "lines": true,
                     "linewidth": 0,
-                    "links": [
-
-                    ],
+                    "links": [],
                     "nullPointMode": "null as zero",
                     "percentage": false,
                     "pointradius": 5,
                     "points": false,
                     "renderer": "flot",
-                    "seriesOverrides": [
-
-                    ],
+                    "seriesOverrides": [],
                     "spaceLength": 10,
                     "span": 6,
                     "stack": true,
@@ -1731,9 +1533,7 @@
                             "step": 10
                         }
                     ],
-                    "thresholds": [
-
-                    ],
+                    "thresholds": [],
                     "timeFrom": null,
                     "timeShift": null,
                     "title": "Transmit Bandwidth",
@@ -1748,9 +1548,7 @@
                         "mode": "time",
                         "name": null,
                         "show": true,
-                        "values": [
-
-                        ]
+                        "values": []
                     },
                     "yaxes": [
                         {
@@ -1784,9 +1582,7 @@
             "height": "250px",
             "panels": [
                 {
-                    "aliasColors": {
-
-                    },
+                    "aliasColors": {},
                     "bars": false,
                     "dashLength": 10,
                     "dashes": false,
@@ -1807,17 +1603,13 @@
                     },
                     "lines": true,
                     "linewidth": 0,
-                    "links": [
-
-                    ],
+                    "links": [],
                     "nullPointMode": "null as zero",
                     "percentage": false,
                     "pointradius": 5,
                     "points": false,
                     "renderer": "flot",
-                    "seriesOverrides": [
-
-                    ],
+                    "seriesOverrides": [],
                     "spaceLength": 10,
                     "span": 6,
                     "stack": true,
@@ -1832,9 +1624,7 @@
                             "step": 10
                         }
                     ],
-                    "thresholds": [
-
-                    ],
+                    "thresholds": [],
                     "timeFrom": null,
                     "timeShift": null,
                     "title": "Rate of Received Packets",
@@ -1849,9 +1639,7 @@
                         "mode": "time",
                         "name": null,
                         "show": true,
-                        "values": [
-
-                        ]
+                        "values": []
                     },
                     "yaxes": [
                         {
@@ -1873,9 +1661,7 @@
                     ]
                 },
                 {
-                    "aliasColors": {
-
-                    },
+                    "aliasColors": {},
                     "bars": false,
                     "dashLength": 10,
                     "dashes": false,
@@ -1896,17 +1682,13 @@
                     },
                     "lines": true,
                     "linewidth": 0,
-                    "links": [
-
-                    ],
+                    "links": [],
                     "nullPointMode": "null as zero",
                     "percentage": false,
                     "pointradius": 5,
                     "points": false,
                     "renderer": "flot",
-                    "seriesOverrides": [
-
-                    ],
+                    "seriesOverrides": [],
                     "spaceLength": 10,
                     "span": 6,
                     "stack": true,
@@ -1921,9 +1703,7 @@
                             "step": 10
                         }
                     ],
-                    "thresholds": [
-
-                    ],
+                    "thresholds": [],
                     "timeFrom": null,
                     "timeShift": null,
                     "title": "Rate of Transmitted Packets",
@@ -1938,9 +1718,7 @@
                         "mode": "time",
                         "name": null,
                         "show": true,
-                        "values": [
-
-                        ]
+                        "values": []
                     },
                     "yaxes": [
                         {
@@ -1974,9 +1752,7 @@
             "height": "250px",
             "panels": [
                 {
-                    "aliasColors": {
-
-                    },
+                    "aliasColors": {},
                     "bars": false,
                     "dashLength": 10,
                     "dashes": false,
@@ -1997,17 +1773,13 @@
                     },
                     "lines": true,
                     "linewidth": 0,
-                    "links": [
-
-                    ],
+                    "links": [],
                     "nullPointMode": "null as zero",
                     "percentage": false,
                     "pointradius": 5,
                     "points": false,
                     "renderer": "flot",
-                    "seriesOverrides": [
-
-                    ],
+                    "seriesOverrides": [],
                     "spaceLength": 10,
                     "span": 6,
                     "stack": true,
@@ -2022,9 +1794,7 @@
                             "step": 10
                         }
                     ],
-                    "thresholds": [
-
-                    ],
+                    "thresholds": [],
                     "timeFrom": null,
                     "timeShift": null,
                     "title": "Rate of Received Packets Dropped",
@@ -2039,9 +1809,7 @@
                         "mode": "time",
                         "name": null,
                         "show": true,
-                        "values": [
-
-                        ]
+                        "values": []
                     },
                     "yaxes": [
                         {
@@ -2063,9 +1831,7 @@
                     ]
                 },
                 {
-                    "aliasColors": {
-
-                    },
+                    "aliasColors": {},
                     "bars": false,
                     "dashLength": 10,
                     "dashes": false,
@@ -2086,17 +1852,13 @@
                     },
                     "lines": true,
                     "linewidth": 0,
-                    "links": [
-
-                    ],
+                    "links": [],
                     "nullPointMode": "null as zero",
                     "percentage": false,
                     "pointradius": 5,
                     "points": false,
                     "renderer": "flot",
-                    "seriesOverrides": [
-
-                    ],
+                    "seriesOverrides": [],
                     "spaceLength": 10,
                     "span": 6,
                     "stack": true,
@@ -2111,9 +1873,7 @@
                             "step": 10
                         }
                     ],
-                    "thresholds": [
-
-                    ],
+                    "thresholds": [],
                     "timeFrom": null,
                     "timeShift": null,
                     "title": "Rate of Transmitted Packets Dropped",
@@ -2128,9 +1888,7 @@
                         "mode": "time",
                         "name": null,
                         "show": true,
-                        "values": [
-
-                        ]
+                        "values": []
                     },
                     "yaxes": [
                         {
@@ -2164,9 +1922,7 @@
             "height": "250px",
             "panels": [
                 {
-                    "aliasColors": {
-
-                    },
+                    "aliasColors": {},
                     "bars": false,
                     "dashLength": 10,
                     "dashes": false,
@@ -2188,17 +1944,13 @@
                     },
                     "lines": true,
                     "linewidth": 0,
-                    "links": [
-
-                    ],
+                    "links": [],
                     "nullPointMode": "null as zero",
                     "percentage": false,
                     "pointradius": 5,
                     "points": false,
                     "renderer": "flot",
-                    "seriesOverrides": [
-
-                    ],
+                    "seriesOverrides": [],
                     "spaceLength": 10,
                     "span": 6,
                     "stack": true,
@@ -2213,9 +1965,7 @@
                             "step": 10
                         }
                     ],
-                    "thresholds": [
-
-                    ],
+                    "thresholds": [],
                     "timeFrom": null,
                     "timeShift": null,
                     "title": "IOPS(Reads+Writes)",
@@ -2230,9 +1980,7 @@
                         "mode": "time",
                         "name": null,
                         "show": true,
-                        "values": [
-
-                        ]
+                        "values": []
                     },
                     "yaxes": [
                         {
@@ -2254,9 +2002,7 @@
                     ]
                 },
                 {
-                    "aliasColors": {
-
-                    },
+                    "aliasColors": {},
                     "bars": false,
                     "dashLength": 10,
                     "dashes": false,
@@ -2277,17 +2023,13 @@
                     },
                     "lines": true,
                     "linewidth": 0,
-                    "links": [
-
-                    ],
+                    "links": [],
                     "nullPointMode": "null as zero",
                     "percentage": false,
                     "pointradius": 5,
                     "points": false,
                     "renderer": "flot",
-                    "seriesOverrides": [
-
-                    ],
+                    "seriesOverrides": [],
                     "spaceLength": 10,
                     "span": 6,
                     "stack": true,
@@ -2302,9 +2044,7 @@
                             "step": 10
                         }
                     ],
-                    "thresholds": [
-
-                    ],
+                    "thresholds": [],
                     "timeFrom": null,
                     "timeShift": null,
                     "title": "ThroughPut(Read+Write)",
@@ -2319,9 +2059,7 @@
                         "mode": "time",
                         "name": null,
                         "show": true,
-                        "values": [
-
-                        ]
+                        "values": []
                     },
                     "yaxes": [
                         {
@@ -2355,9 +2093,7 @@
             "height": "250px",
             "panels": [
                 {
-                    "aliasColors": {
-
-                    },
+                    "aliasColors": {},
                     "bars": false,
                     "dashLength": 10,
                     "dashes": false,
@@ -2378,17 +2114,13 @@
                     },
                     "lines": true,
                     "linewidth": 1,
-                    "links": [
-
-                    ],
+                    "links": [],
                     "nullPointMode": "null as zero",
                     "percentage": false,
                     "pointradius": 5,
                     "points": false,
                     "renderer": "flot",
-                    "seriesOverrides": [
-
-                    ],
+                    "seriesOverrides": [],
                     "sort": {
                         "col": 4,
                         "desc": true
@@ -2407,9 +2139,7 @@
                         {
                             "alias": "IOPS(Reads)",
                             "colorMode": null,
-                            "colors": [
-
-                            ],
+                            "colors": [],
                             "dateFormat": "YYYY-MM-DD HH:mm:ss",
                             "decimals": -1,
                             "link": false,
@@ -2417,18 +2147,14 @@
                             "linkTooltip": "Drill down",
                             "linkUrl": "",
                             "pattern": "Value #A",
-                            "thresholds": [
-
-                            ],
+                            "thresholds": [],
                             "type": "number",
                             "unit": "short"
                         },
                         {
                             "alias": "IOPS(Writes)",
                             "colorMode": null,
-                            "colors": [
-
-                            ],
+                            "colors": [],
                             "dateFormat": "YYYY-MM-DD HH:mm:ss",
                             "decimals": -1,
                             "link": false,
@@ -2436,18 +2162,14 @@
                             "linkTooltip": "Drill down",
                             "linkUrl": "",
                             "pattern": "Value #B",
-                            "thresholds": [
-
-                            ],
+                            "thresholds": [],
                             "type": "number",
                             "unit": "short"
                         },
                         {
                             "alias": "IOPS(Reads + Writes)",
                             "colorMode": null,
-                            "colors": [
-
-                            ],
+                            "colors": [],
                             "dateFormat": "YYYY-MM-DD HH:mm:ss",
                             "decimals": -1,
                             "link": false,
@@ -2455,18 +2177,14 @@
                             "linkTooltip": "Drill down",
                             "linkUrl": "",
                             "pattern": "Value #C",
-                            "thresholds": [
-
-                            ],
+                            "thresholds": [],
                             "type": "number",
                             "unit": "short"
                         },
                         {
                             "alias": "Throughput(Read)",
                             "colorMode": null,
-                            "colors": [
-
-                            ],
+                            "colors": [],
                             "dateFormat": "YYYY-MM-DD HH:mm:ss",
                             "decimals": 2,
                             "link": false,
@@ -2474,18 +2192,14 @@
                             "linkTooltip": "Drill down",
                             "linkUrl": "",
                             "pattern": "Value #D",
-                            "thresholds": [
-
-                            ],
+                            "thresholds": [],
                             "type": "number",
                             "unit": "Bps"
                         },
                         {
                             "alias": "Throughput(Write)",
                             "colorMode": null,
-                            "colors": [
-
-                            ],
+                            "colors": [],
                             "dateFormat": "YYYY-MM-DD HH:mm:ss",
                             "decimals": 2,
                             "link": false,
@@ -2493,18 +2207,14 @@
                             "linkTooltip": "Drill down",
                             "linkUrl": "",
                             "pattern": "Value #E",
-                            "thresholds": [
-
-                            ],
+                            "thresholds": [],
                             "type": "number",
                             "unit": "Bps"
                         },
                         {
                             "alias": "Throughput(Read + Write)",
                             "colorMode": null,
-                            "colors": [
-
-                            ],
+                            "colors": [],
                             "dateFormat": "YYYY-MM-DD HH:mm:ss",
                             "decimals": 2,
                             "link": false,
@@ -2512,18 +2222,14 @@
                             "linkTooltip": "Drill down",
                             "linkUrl": "",
                             "pattern": "Value #F",
-                            "thresholds": [
-
-                            ],
+                            "thresholds": [],
                             "type": "number",
                             "unit": "Bps"
                         },
                         {
                             "alias": "Pod",
                             "colorMode": null,
-                            "colors": [
-
-                            ],
+                            "colors": [],
                             "dateFormat": "YYYY-MM-DD HH:mm:ss",
                             "decimals": 2,
                             "link": true,
@@ -2531,24 +2237,18 @@
                             "linkTooltip": "Drill down to pods",
                             "linkUrl": "/d/6581e46e4e5c7ba40a07646395ef7b23/k8s-resources-pod?var-datasource=$datasource&var-cluster=$cluster&var-namespace=$namespace&var-pod=$__cell",
                             "pattern": "pod",
-                            "thresholds": [
-
-                            ],
+                            "thresholds": [],
                             "type": "number",
                             "unit": "short"
                         },
                         {
                             "alias": "",
                             "colorMode": null,
-                            "colors": [
-
-                            ],
+                            "colors": [],
                             "dateFormat": "YYYY-MM-DD HH:mm:ss",
                             "decimals": 2,
                             "pattern": "/.*/",
-                            "thresholds": [
-
-                            ],
+                            "thresholds": [],
                             "type": "string",
                             "unit": "short"
                         }
@@ -2609,9 +2309,7 @@
                             "step": 10
                         }
                     ],
-                    "thresholds": [
-
-                    ],
+                    "thresholds": [],
                     "timeFrom": null,
                     "timeShift": null,
                     "title": "Current Storage IO",
@@ -2627,9 +2325,7 @@
                         "mode": "time",
                         "name": null,
                         "show": true,
-                        "values": [
-
-                        ]
+                        "values": []
                     },
                     "yaxes": [
                         {
@@ -2674,9 +2370,7 @@
                 "hide": 0,
                 "label": "Data Source",
                 "name": "datasource",
-                "options": [
-
-                ],
+                "options": [],
                 "query": "prometheus",
                 "refresh": 1,
                 "regex": "",
@@ -2694,17 +2388,13 @@
                 "label": null,
                 "multi": false,
                 "name": "cluster",
-                "options": [
-
-                ],
+                "options": [],
                 "query": "label_values(up{job=\"kube-state-metrics\"}, cluster)",
                 "refresh": 2,
                 "regex": "",
                 "sort": 1,
                 "tagValuesQuery": "",
-                "tags": [
-
-                ],
+                "tags": [],
                 "tagsQuery": "",
                 "type": "query",
                 "useTags": false
@@ -2721,17 +2411,13 @@
                 "label": null,
                 "multi": false,
                 "name": "namespace",
-                "options": [
-
-                ],
+                "options": [],
                 "query": "label_values(kube_namespace_status_phase{job=\"kube-state-metrics\", cluster=\"$cluster\"}, namespace)",
                 "refresh": 2,
                 "regex": "",
                 "sort": 1,
                 "tagValuesQuery": "",
-                "tags": [
-
-                ],
+                "tags": [],
                 "tagsQuery": "",
                 "type": "query",
                 "useTags": false

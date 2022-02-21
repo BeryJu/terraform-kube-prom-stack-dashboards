@@ -1,39 +1,25 @@
 {
-    "__inputs": [
-
-    ],
-    "__requires": [
-
-    ],
+    "__inputs": [],
+    "__requires": [],
     "annotations": {
-        "list": [
-
-        ]
+        "list": []
     },
     "editable": false,
     "gnetId": null,
     "graphTooltip": 0,
     "hideControls": false,
     "id": null,
-    "links": [
-
-    ],
+    "links": [],
     "panels": [
         {
             "datasource": "$datasource",
             "fieldConfig": {
                 "defaults": {
-                    "links": [
-
-                    ],
-                    "mappings": [
-
-                    ],
+                    "links": [],
+                    "mappings": [],
                     "thresholds": {
                         "mode": "absolute",
-                        "steps": [
-
-                        ]
+                        "steps": []
                     },
                     "unit": "none"
                 }
@@ -45,9 +31,7 @@
                 "y": 0
             },
             "id": 2,
-            "links": [
-
-            ],
+            "links": [],
             "options": {
                 "colorMode": "value",
                 "graphMode": "area",
@@ -80,17 +64,11 @@
             "datasource": "$datasource",
             "fieldConfig": {
                 "defaults": {
-                    "links": [
-
-                    ],
-                    "mappings": [
-
-                    ],
+                    "links": [],
+                    "mappings": [],
                     "thresholds": {
                         "mode": "absolute",
-                        "steps": [
-
-                        ]
+                        "steps": []
                     },
                     "unit": "none"
                 }
@@ -102,9 +80,7 @@
                 "y": 0
             },
             "id": 3,
-            "links": [
-
-            ],
+            "links": [],
             "options": {
                 "colorMode": "value",
                 "graphMode": "area",
@@ -137,17 +113,11 @@
             "datasource": "$datasource",
             "fieldConfig": {
                 "defaults": {
-                    "links": [
-
-                    ],
-                    "mappings": [
-
-                    ],
+                    "links": [],
+                    "mappings": [],
                     "thresholds": {
                         "mode": "absolute",
-                        "steps": [
-
-                        ]
+                        "steps": []
                     },
                     "unit": "none"
                 }
@@ -159,9 +129,7 @@
                 "y": 0
             },
             "id": 4,
-            "links": [
-
-            ],
+            "links": [],
             "options": {
                 "colorMode": "value",
                 "graphMode": "area",
@@ -194,17 +162,11 @@
             "datasource": "$datasource",
             "fieldConfig": {
                 "defaults": {
-                    "links": [
-
-                    ],
-                    "mappings": [
-
-                    ],
+                    "links": [],
+                    "mappings": [],
                     "thresholds": {
                         "mode": "absolute",
-                        "steps": [
-
-                        ]
+                        "steps": []
                     },
                     "unit": "none"
                 }
@@ -216,9 +178,7 @@
                 "y": 0
             },
             "id": 5,
-            "links": [
-
-            ],
+            "links": [],
             "options": {
                 "colorMode": "value",
                 "graphMode": "area",
@@ -251,17 +211,11 @@
             "datasource": "$datasource",
             "fieldConfig": {
                 "defaults": {
-                    "links": [
-
-                    ],
-                    "mappings": [
-
-                    ],
+                    "links": [],
+                    "mappings": [],
                     "thresholds": {
                         "mode": "absolute",
-                        "steps": [
-
-                        ]
+                        "steps": []
                     },
                     "unit": "none"
                 }
@@ -273,9 +227,7 @@
                 "y": 0
             },
             "id": 6,
-            "links": [
-
-            ],
+            "links": [],
             "options": {
                 "colorMode": "value",
                 "graphMode": "area",
@@ -308,17 +260,11 @@
             "datasource": "$datasource",
             "fieldConfig": {
                 "defaults": {
-                    "links": [
-
-                    ],
-                    "mappings": [
-
-                    ],
+                    "links": [],
+                    "mappings": [],
                     "thresholds": {
                         "mode": "absolute",
-                        "steps": [
-
-                        ]
+                        "steps": []
                     },
                     "unit": "none"
                 }
@@ -330,9 +276,7 @@
                 "y": 0
             },
             "id": 7,
-            "links": [
-
-            ],
+            "links": [],
             "options": {
                 "colorMode": "value",
                 "graphMode": "area",
@@ -362,9 +306,7 @@
             "type": "stat"
         },
         {
-            "aliasColors": {
-
-            },
+            "aliasColors": {},
             "bars": false,
             "dashLength": 10,
             "dashes": false,
@@ -392,18 +334,14 @@
             },
             "lines": true,
             "linewidth": 1,
-            "links": [
-
-            ],
+            "links": [],
             "nullPointMode": "null",
             "percentage": false,
             "pointradius": 5,
             "points": false,
             "renderer": "flot",
             "repeat": null,
-            "seriesOverrides": [
-
-            ],
+            "seriesOverrides": [],
             "spaceLength": 10,
             "stack": false,
             "steppedLine": false,
@@ -416,9 +354,7 @@
                     "refId": "A"
                 }
             ],
-            "thresholds": [
-
-            ],
+            "thresholds": [],
             "timeFrom": null,
             "timeShift": null,
             "title": "Operation Rate",
@@ -433,9 +369,7 @@
                 "mode": "time",
                 "name": null,
                 "show": true,
-                "values": [
-
-                ]
+                "values": []
             },
             "yaxes": [
                 {
@@ -457,9 +391,7 @@
             ]
         },
         {
-            "aliasColors": {
-
-            },
+            "aliasColors": {},
             "bars": false,
             "dashLength": 10,
             "dashes": false,
@@ -487,18 +419,14 @@
             },
             "lines": true,
             "linewidth": 1,
-            "links": [
-
-            ],
+            "links": [],
             "nullPointMode": "null",
             "percentage": false,
             "pointradius": 5,
             "points": false,
             "renderer": "flot",
             "repeat": null,
-            "seriesOverrides": [
-
-            ],
+            "seriesOverrides": [],
             "spaceLength": 10,
             "stack": false,
             "steppedLine": false,
@@ -511,9 +439,7 @@
                     "refId": "A"
                 }
             ],
-            "thresholds": [
-
-            ],
+            "thresholds": [],
             "timeFrom": null,
             "timeShift": null,
             "title": "Operation Error Rate",
@@ -528,9 +454,7 @@
                 "mode": "time",
                 "name": null,
                 "show": true,
-                "values": [
-
-                ]
+                "values": []
             },
             "yaxes": [
                 {
@@ -552,9 +476,7 @@
             ]
         },
         {
-            "aliasColors": {
-
-            },
+            "aliasColors": {},
             "bars": false,
             "dashLength": 10,
             "dashes": false,
@@ -582,18 +504,14 @@
             },
             "lines": true,
             "linewidth": 1,
-            "links": [
-
-            ],
+            "links": [],
             "nullPointMode": "null",
             "percentage": false,
             "pointradius": 5,
             "points": false,
             "renderer": "flot",
             "repeat": null,
-            "seriesOverrides": [
-
-            ],
+            "seriesOverrides": [],
             "spaceLength": 10,
             "stack": false,
             "steppedLine": false,
@@ -606,9 +524,7 @@
                     "refId": "A"
                 }
             ],
-            "thresholds": [
-
-            ],
+            "thresholds": [],
             "timeFrom": null,
             "timeShift": null,
             "title": "Operation duration 99th quantile",
@@ -623,9 +539,7 @@
                 "mode": "time",
                 "name": null,
                 "show": true,
-                "values": [
-
-                ]
+                "values": []
             },
             "yaxes": [
                 {
@@ -647,9 +561,7 @@
             ]
         },
         {
-            "aliasColors": {
-
-            },
+            "aliasColors": {},
             "bars": false,
             "dashLength": 10,
             "dashes": false,
@@ -677,18 +589,14 @@
             },
             "lines": true,
             "linewidth": 1,
-            "links": [
-
-            ],
+            "links": [],
             "nullPointMode": "null",
             "percentage": false,
             "pointradius": 5,
             "points": false,
             "renderer": "flot",
             "repeat": null,
-            "seriesOverrides": [
-
-            ],
+            "seriesOverrides": [],
             "spaceLength": 10,
             "stack": false,
             "steppedLine": false,
@@ -708,9 +616,7 @@
                     "refId": "B"
                 }
             ],
-            "thresholds": [
-
-            ],
+            "thresholds": [],
             "timeFrom": null,
             "timeShift": null,
             "title": "Pod Start Rate",
@@ -725,9 +631,7 @@
                 "mode": "time",
                 "name": null,
                 "show": true,
-                "values": [
-
-                ]
+                "values": []
             },
             "yaxes": [
                 {
@@ -749,9 +653,7 @@
             ]
         },
         {
-            "aliasColors": {
-
-            },
+            "aliasColors": {},
             "bars": false,
             "dashLength": 10,
             "dashes": false,
@@ -779,18 +681,14 @@
             },
             "lines": true,
             "linewidth": 1,
-            "links": [
-
-            ],
+            "links": [],
             "nullPointMode": "null",
             "percentage": false,
             "pointradius": 5,
             "points": false,
             "renderer": "flot",
             "repeat": null,
-            "seriesOverrides": [
-
-            ],
+            "seriesOverrides": [],
             "spaceLength": 10,
             "stack": false,
             "steppedLine": false,
@@ -810,9 +708,7 @@
                     "refId": "B"
                 }
             ],
-            "thresholds": [
-
-            ],
+            "thresholds": [],
             "timeFrom": null,
             "timeShift": null,
             "title": "Pod Start Duration",
@@ -827,9 +723,7 @@
                 "mode": "time",
                 "name": null,
                 "show": true,
-                "values": [
-
-                ]
+                "values": []
             },
             "yaxes": [
                 {
@@ -851,9 +745,7 @@
             ]
         },
         {
-            "aliasColors": {
-
-            },
+            "aliasColors": {},
             "bars": false,
             "dashLength": 10,
             "dashes": false,
@@ -883,18 +775,14 @@
             },
             "lines": true,
             "linewidth": 1,
-            "links": [
-
-            ],
+            "links": [],
             "nullPointMode": "null",
             "percentage": false,
             "pointradius": 5,
             "points": false,
             "renderer": "flot",
             "repeat": null,
-            "seriesOverrides": [
-
-            ],
+            "seriesOverrides": [],
             "spaceLength": 10,
             "stack": false,
             "steppedLine": false,
@@ -907,9 +795,7 @@
                     "refId": "A"
                 }
             ],
-            "thresholds": [
-
-            ],
+            "thresholds": [],
             "timeFrom": null,
             "timeShift": null,
             "title": "Storage Operation Rate",
@@ -924,9 +810,7 @@
                 "mode": "time",
                 "name": null,
                 "show": true,
-                "values": [
-
-                ]
+                "values": []
             },
             "yaxes": [
                 {
@@ -948,9 +832,7 @@
             ]
         },
         {
-            "aliasColors": {
-
-            },
+            "aliasColors": {},
             "bars": false,
             "dashLength": 10,
             "dashes": false,
@@ -980,18 +862,14 @@
             },
             "lines": true,
             "linewidth": 1,
-            "links": [
-
-            ],
+            "links": [],
             "nullPointMode": "null",
             "percentage": false,
             "pointradius": 5,
             "points": false,
             "renderer": "flot",
             "repeat": null,
-            "seriesOverrides": [
-
-            ],
+            "seriesOverrides": [],
             "spaceLength": 10,
             "stack": false,
             "steppedLine": false,
@@ -1004,9 +882,7 @@
                     "refId": "A"
                 }
             ],
-            "thresholds": [
-
-            ],
+            "thresholds": [],
             "timeFrom": null,
             "timeShift": null,
             "title": "Storage Operation Error Rate",
@@ -1021,9 +897,7 @@
                 "mode": "time",
                 "name": null,
                 "show": true,
-                "values": [
-
-                ]
+                "values": []
             },
             "yaxes": [
                 {
@@ -1045,9 +919,7 @@
             ]
         },
         {
-            "aliasColors": {
-
-            },
+            "aliasColors": {},
             "bars": false,
             "dashLength": 10,
             "dashes": false,
@@ -1077,18 +949,14 @@
             },
             "lines": true,
             "linewidth": 1,
-            "links": [
-
-            ],
+            "links": [],
             "nullPointMode": "null",
             "percentage": false,
             "pointradius": 5,
             "points": false,
             "renderer": "flot",
             "repeat": null,
-            "seriesOverrides": [
-
-            ],
+            "seriesOverrides": [],
             "spaceLength": 10,
             "stack": false,
             "steppedLine": false,
@@ -1101,9 +969,7 @@
                     "refId": "A"
                 }
             ],
-            "thresholds": [
-
-            ],
+            "thresholds": [],
             "timeFrom": null,
             "timeShift": null,
             "title": "Storage Operation Duration 99th quantile",
@@ -1118,9 +984,7 @@
                 "mode": "time",
                 "name": null,
                 "show": true,
-                "values": [
-
-                ]
+                "values": []
             },
             "yaxes": [
                 {
@@ -1142,9 +1006,7 @@
             ]
         },
         {
-            "aliasColors": {
-
-            },
+            "aliasColors": {},
             "bars": false,
             "dashLength": 10,
             "dashes": false,
@@ -1172,18 +1034,14 @@
             },
             "lines": true,
             "linewidth": 1,
-            "links": [
-
-            ],
+            "links": [],
             "nullPointMode": "null",
             "percentage": false,
             "pointradius": 5,
             "points": false,
             "renderer": "flot",
             "repeat": null,
-            "seriesOverrides": [
-
-            ],
+            "seriesOverrides": [],
             "spaceLength": 10,
             "stack": false,
             "steppedLine": false,
@@ -1196,9 +1054,7 @@
                     "refId": "A"
                 }
             ],
-            "thresholds": [
-
-            ],
+            "thresholds": [],
             "timeFrom": null,
             "timeShift": null,
             "title": "Cgroup manager operation rate",
@@ -1213,9 +1069,7 @@
                 "mode": "time",
                 "name": null,
                 "show": true,
-                "values": [
-
-                ]
+                "values": []
             },
             "yaxes": [
                 {
@@ -1237,9 +1091,7 @@
             ]
         },
         {
-            "aliasColors": {
-
-            },
+            "aliasColors": {},
             "bars": false,
             "dashLength": 10,
             "dashes": false,
@@ -1267,18 +1119,14 @@
             },
             "lines": true,
             "linewidth": 1,
-            "links": [
-
-            ],
+            "links": [],
             "nullPointMode": "null",
             "percentage": false,
             "pointradius": 5,
             "points": false,
             "renderer": "flot",
             "repeat": null,
-            "seriesOverrides": [
-
-            ],
+            "seriesOverrides": [],
             "spaceLength": 10,
             "stack": false,
             "steppedLine": false,
@@ -1291,9 +1139,7 @@
                     "refId": "A"
                 }
             ],
-            "thresholds": [
-
-            ],
+            "thresholds": [],
             "timeFrom": null,
             "timeShift": null,
             "title": "Cgroup manager 99th quantile",
@@ -1308,9 +1154,7 @@
                 "mode": "time",
                 "name": null,
                 "show": true,
-                "values": [
-
-                ]
+                "values": []
             },
             "yaxes": [
                 {
@@ -1332,9 +1176,7 @@
             ]
         },
         {
-            "aliasColors": {
-
-            },
+            "aliasColors": {},
             "bars": false,
             "dashLength": 10,
             "dashes": false,
@@ -1363,18 +1205,14 @@
             },
             "lines": true,
             "linewidth": 1,
-            "links": [
-
-            ],
+            "links": [],
             "nullPointMode": "null",
             "percentage": false,
             "pointradius": 5,
             "points": false,
             "renderer": "flot",
             "repeat": null,
-            "seriesOverrides": [
-
-            ],
+            "seriesOverrides": [],
             "spaceLength": 10,
             "stack": false,
             "steppedLine": false,
@@ -1387,9 +1225,7 @@
                     "refId": "A"
                 }
             ],
-            "thresholds": [
-
-            ],
+            "thresholds": [],
             "timeFrom": null,
             "timeShift": null,
             "title": "PLEG relist rate",
@@ -1404,9 +1240,7 @@
                 "mode": "time",
                 "name": null,
                 "show": true,
-                "values": [
-
-                ]
+                "values": []
             },
             "yaxes": [
                 {
@@ -1428,9 +1262,7 @@
             ]
         },
         {
-            "aliasColors": {
-
-            },
+            "aliasColors": {},
             "bars": false,
             "dashLength": 10,
             "dashes": false,
@@ -1458,18 +1290,14 @@
             },
             "lines": true,
             "linewidth": 1,
-            "links": [
-
-            ],
+            "links": [],
             "nullPointMode": "null",
             "percentage": false,
             "pointradius": 5,
             "points": false,
             "renderer": "flot",
             "repeat": null,
-            "seriesOverrides": [
-
-            ],
+            "seriesOverrides": [],
             "spaceLength": 10,
             "stack": false,
             "steppedLine": false,
@@ -1482,9 +1310,7 @@
                     "refId": "A"
                 }
             ],
-            "thresholds": [
-
-            ],
+            "thresholds": [],
             "timeFrom": null,
             "timeShift": null,
             "title": "PLEG relist interval",
@@ -1499,9 +1325,7 @@
                 "mode": "time",
                 "name": null,
                 "show": true,
-                "values": [
-
-                ]
+                "values": []
             },
             "yaxes": [
                 {
@@ -1523,9 +1347,7 @@
             ]
         },
         {
-            "aliasColors": {
-
-            },
+            "aliasColors": {},
             "bars": false,
             "dashLength": 10,
             "dashes": false,
@@ -1553,18 +1375,14 @@
             },
             "lines": true,
             "linewidth": 1,
-            "links": [
-
-            ],
+            "links": [],
             "nullPointMode": "null",
             "percentage": false,
             "pointradius": 5,
             "points": false,
             "renderer": "flot",
             "repeat": null,
-            "seriesOverrides": [
-
-            ],
+            "seriesOverrides": [],
             "spaceLength": 10,
             "stack": false,
             "steppedLine": false,
@@ -1577,9 +1395,7 @@
                     "refId": "A"
                 }
             ],
-            "thresholds": [
-
-            ],
+            "thresholds": [],
             "timeFrom": null,
             "timeShift": null,
             "title": "PLEG relist duration",
@@ -1594,9 +1410,7 @@
                 "mode": "time",
                 "name": null,
                 "show": true,
-                "values": [
-
-                ]
+                "values": []
             },
             "yaxes": [
                 {
@@ -1618,9 +1432,7 @@
             ]
         },
         {
-            "aliasColors": {
-
-            },
+            "aliasColors": {},
             "bars": false,
             "dashLength": 10,
             "dashes": false,
@@ -1648,18 +1460,14 @@
             },
             "lines": true,
             "linewidth": 1,
-            "links": [
-
-            ],
+            "links": [],
             "nullPointMode": "null",
             "percentage": false,
             "pointradius": 5,
             "points": false,
             "renderer": "flot",
             "repeat": null,
-            "seriesOverrides": [
-
-            ],
+            "seriesOverrides": [],
             "spaceLength": 10,
             "stack": false,
             "steppedLine": false,
@@ -1693,9 +1501,7 @@
                     "refId": "D"
                 }
             ],
-            "thresholds": [
-
-            ],
+            "thresholds": [],
             "timeFrom": null,
             "timeShift": null,
             "title": "RPC Rate",
@@ -1710,9 +1516,7 @@
                 "mode": "time",
                 "name": null,
                 "show": true,
-                "values": [
-
-                ]
+                "values": []
             },
             "yaxes": [
                 {
@@ -1734,9 +1538,7 @@
             ]
         },
         {
-            "aliasColors": {
-
-            },
+            "aliasColors": {},
             "bars": false,
             "dashLength": 10,
             "dashes": false,
@@ -1764,18 +1566,14 @@
             },
             "lines": true,
             "linewidth": 1,
-            "links": [
-
-            ],
+            "links": [],
             "nullPointMode": "null",
             "percentage": false,
             "pointradius": 5,
             "points": false,
             "renderer": "flot",
             "repeat": null,
-            "seriesOverrides": [
-
-            ],
+            "seriesOverrides": [],
             "spaceLength": 10,
             "stack": false,
             "steppedLine": false,
@@ -1788,9 +1586,7 @@
                     "refId": "A"
                 }
             ],
-            "thresholds": [
-
-            ],
+            "thresholds": [],
             "timeFrom": null,
             "timeShift": null,
             "title": "Request duration 99th quantile",
@@ -1805,9 +1601,7 @@
                 "mode": "time",
                 "name": null,
                 "show": true,
-                "values": [
-
-                ]
+                "values": []
             },
             "yaxes": [
                 {
@@ -1829,9 +1623,7 @@
             ]
         },
         {
-            "aliasColors": {
-
-            },
+            "aliasColors": {},
             "bars": false,
             "dashLength": 10,
             "dashes": false,
@@ -1859,18 +1651,14 @@
             },
             "lines": true,
             "linewidth": 1,
-            "links": [
-
-            ],
+            "links": [],
             "nullPointMode": "null",
             "percentage": false,
             "pointradius": 5,
             "points": false,
             "renderer": "flot",
             "repeat": null,
-            "seriesOverrides": [
-
-            ],
+            "seriesOverrides": [],
             "spaceLength": 10,
             "stack": false,
             "steppedLine": false,
@@ -1883,9 +1671,7 @@
                     "refId": "A"
                 }
             ],
-            "thresholds": [
-
-            ],
+            "thresholds": [],
             "timeFrom": null,
             "timeShift": null,
             "title": "Memory",
@@ -1900,9 +1686,7 @@
                 "mode": "time",
                 "name": null,
                 "show": true,
-                "values": [
-
-                ]
+                "values": []
             },
             "yaxes": [
                 {
@@ -1924,9 +1708,7 @@
             ]
         },
         {
-            "aliasColors": {
-
-            },
+            "aliasColors": {},
             "bars": false,
             "dashLength": 10,
             "dashes": false,
@@ -1954,18 +1736,14 @@
             },
             "lines": true,
             "linewidth": 1,
-            "links": [
-
-            ],
+            "links": [],
             "nullPointMode": "null",
             "percentage": false,
             "pointradius": 5,
             "points": false,
             "renderer": "flot",
             "repeat": null,
-            "seriesOverrides": [
-
-            ],
+            "seriesOverrides": [],
             "spaceLength": 10,
             "stack": false,
             "steppedLine": false,
@@ -1978,9 +1756,7 @@
                     "refId": "A"
                 }
             ],
-            "thresholds": [
-
-            ],
+            "thresholds": [],
             "timeFrom": null,
             "timeShift": null,
             "title": "CPU usage",
@@ -1995,9 +1771,7 @@
                 "mode": "time",
                 "name": null,
                 "show": true,
-                "values": [
-
-                ]
+                "values": []
             },
             "yaxes": [
                 {
@@ -2019,9 +1793,7 @@
             ]
         },
         {
-            "aliasColors": {
-
-            },
+            "aliasColors": {},
             "bars": false,
             "dashLength": 10,
             "dashes": false,
@@ -2049,18 +1821,14 @@
             },
             "lines": true,
             "linewidth": 1,
-            "links": [
-
-            ],
+            "links": [],
             "nullPointMode": "null",
             "percentage": false,
             "pointradius": 5,
             "points": false,
             "renderer": "flot",
             "repeat": null,
-            "seriesOverrides": [
-
-            ],
+            "seriesOverrides": [],
             "spaceLength": 10,
             "stack": false,
             "steppedLine": false,
@@ -2073,9 +1841,7 @@
                     "refId": "A"
                 }
             ],
-            "thresholds": [
-
-            ],
+            "thresholds": [],
             "timeFrom": null,
             "timeShift": null,
             "title": "Goroutines",
@@ -2090,9 +1856,7 @@
                 "mode": "time",
                 "name": null,
                 "show": true,
-                "values": [
-
-                ]
+                "values": []
             },
             "yaxes": [
                 {
@@ -2115,9 +1879,7 @@
         }
     ],
     "refresh": "10s",
-    "rows": [
-
-    ],
+    "rows": [],
     "schemaVersion": 14,
     "style": "dark",
     "tags": [
@@ -2133,9 +1895,7 @@
                 "hide": 0,
                 "label": "Data Source",
                 "name": "datasource",
-                "options": [
-
-                ],
+                "options": [],
                 "query": "prometheus",
                 "refresh": 1,
                 "regex": "",
@@ -2143,52 +1903,40 @@
             },
             {
                 "allValue": null,
-                "current": {
-
-                },
+                "current": {},
                 "datasource": "$datasource",
                 "hide": 0,
                 "includeAll": false,
                 "label": "cluster",
                 "multi": false,
                 "name": "cluster",
-                "options": [
-
-                ],
+                "options": [],
                 "query": "label_values(up{job=\"kubelet\", metrics_path=\"/metrics\"}, cluster)",
                 "refresh": 2,
                 "regex": "",
                 "sort": 1,
                 "tagValuesQuery": "",
-                "tags": [
-
-                ],
+                "tags": [],
                 "tagsQuery": "",
                 "type": "query",
                 "useTags": false
             },
             {
                 "allValue": null,
-                "current": {
-
-                },
+                "current": {},
                 "datasource": "$datasource",
                 "hide": 0,
                 "includeAll": true,
                 "label": "instance",
                 "multi": false,
                 "name": "instance",
-                "options": [
-
-                ],
+                "options": [],
                 "query": "label_values(up{job=\"kubelet\", metrics_path=\"/metrics\",cluster=\"$cluster\"}, instance)",
                 "refresh": 2,
                 "regex": "",
                 "sort": 1,
                 "tagValuesQuery": "",
-                "tags": [
-
-                ],
+                "tags": [],
                 "tagsQuery": "",
                 "type": "query",
                 "useTags": false

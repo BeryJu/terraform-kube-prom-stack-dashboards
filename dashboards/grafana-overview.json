@@ -11,9 +11,7 @@
                 "target": {
                     "limit": 100,
                     "matchAny": false,
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "type": "dashboard"
                 },
                 "type": "dashboard"
@@ -25,17 +23,13 @@
     "graphTooltip": 0,
     "id": 3085,
     "iteration": 1631554945276,
-    "links": [
-
-    ],
+    "links": [],
     "panels": [
         {
             "datasource": "$datasource",
             "fieldConfig": {
                 "defaults": {
-                    "mappings": [
-
-                    ],
+                    "mappings": [],
                     "noValue": "0",
                     "thresholds": {
                         "mode": "absolute",
@@ -51,9 +45,7 @@
                         ]
                     }
                 },
-                "overrides": [
-
-                ]
+                "overrides": []
             },
             "gridPos": {
                 "h": 5,
@@ -74,9 +66,7 @@
                     "fields": "",
                     "values": false
                 },
-                "text": {
-
-                },
+                "text": {},
                 "textMode": "auto"
             },
             "pluginVersion": "8.1.3",
@@ -98,9 +88,7 @@
             "datasource": "$datasource",
             "fieldConfig": {
                 "defaults": {
-                    "mappings": [
-
-                    ],
+                    "mappings": [],
                     "thresholds": {
                         "mode": "absolute",
                         "steps": [
@@ -115,9 +103,7 @@
                         ]
                     }
                 },
-                "overrides": [
-
-                ]
+                "overrides": []
             },
             "gridPos": {
                 "h": 5,
@@ -138,9 +124,7 @@
                     "fields": "",
                     "values": false
                 },
-                "text": {
-
-                },
+                "text": {},
                 "textMode": "auto"
             },
             "pluginVersion": "8.1.3",
@@ -165,9 +149,7 @@
                         "align": null,
                         "displayMode": "auto"
                     },
-                    "mappings": [
-
-                    ],
+                    "mappings": [],
                     "thresholds": {
                         "mode": "absolute",
                         "steps": [
@@ -182,9 +164,7 @@
                         ]
                     }
                 },
-                "overrides": [
-
-                ]
+                "overrides": []
             },
             "gridPos": {
                 "h": 5,
@@ -212,9 +192,7 @@
             "transformations": [
                 {
                     "id": "labelsToFields",
-                    "options": {
-
-                    }
+                    "options": {}
                 },
                 {
                     "id": "organize",
@@ -243,31 +221,23 @@
                             "revision": 5,
                             "version": 3
                         },
-                        "renameByName": {
-
-                        }
+                        "renameByName": {}
                     }
                 }
             ],
             "type": "table"
         },
         {
-            "aliasColors": {
-
-            },
+            "aliasColors": {},
             "bars": false,
             "dashLength": 10,
             "dashes": false,
             "datasource": "$datasource",
             "fieldConfig": {
                 "defaults": {
-                    "links": [
-
-                    ]
+                    "links": []
                 },
-                "overrides": [
-
-                ]
+                "overrides": []
             },
             "fill": 1,
             "fillGradient": 0,
@@ -299,9 +269,7 @@
             "pointradius": 2,
             "points": false,
             "renderer": "flot",
-            "seriesOverrides": [
-
-            ],
+            "seriesOverrides": [],
             "spaceLength": 10,
             "stack": true,
             "steppedLine": false,
@@ -313,13 +281,9 @@
                     "refId": "A"
                 }
             ],
-            "thresholds": [
-
-            ],
+            "thresholds": [],
             "timeFrom": null,
-            "timeRegions": [
-
-            ],
+            "timeRegions": [],
             "timeShift": null,
             "title": "RPS",
             "tooltip": {
@@ -333,9 +297,7 @@
                 "mode": "time",
                 "name": null,
                 "show": true,
-                "values": [
-
-                ]
+                "values": []
             },
             "yaxes": [
                 {
@@ -363,22 +325,16 @@
             }
         },
         {
-            "aliasColors": {
-
-            },
+            "aliasColors": {},
             "bars": false,
             "dashLength": 10,
             "dashes": false,
             "datasource": "$datasource",
             "fieldConfig": {
                 "defaults": {
-                    "links": [
-
-                    ]
+                    "links": []
                 },
-                "overrides": [
-
-                ]
+                "overrides": []
             },
             "fill": 1,
             "fillGradient": 0,
@@ -410,9 +366,7 @@
             "pointradius": 2,
             "points": false,
             "renderer": "flot",
-            "seriesOverrides": [
-
-            ],
+            "seriesOverrides": [],
             "spaceLength": 10,
             "stack": false,
             "steppedLine": false,
@@ -439,13 +393,9 @@
                     "refId": "C"
                 }
             ],
-            "thresholds": [
-
-            ],
+            "thresholds": [],
             "timeFrom": null,
-            "timeRegions": [
-
-            ],
+            "timeRegions": [],
             "timeShift": null,
             "title": "Request Latency",
             "tooltip": {
@@ -459,9 +409,7 @@
                 "mode": "time",
                 "name": null,
                 "show": true,
-                "values": [
-
-                ]
+                "values": []
             },
             "yaxes": [
                 {
@@ -491,9 +439,7 @@
     ],
     "schemaVersion": 30,
     "style": "dark",
-    "tags": [
-
-    ],
+    "tags": [],
     "templating": {
         "list": [
             {
@@ -509,9 +455,7 @@
                 "label": null,
                 "multi": false,
                 "name": "datasource",
-                "options": [
-
-                ],
+                "options": [],
                 "query": "prometheus",
                 "queryValue": "",
                 "refresh": 1,
@@ -539,9 +483,7 @@
                 "label": null,
                 "multi": true,
                 "name": "job",
-                "options": [
-
-                ],
+                "options": [],
                 "query": {
                     "query": "label_values(grafana_build_info, job)",
                     "refId": "Billing Admin-job-Variable-Query"
@@ -571,9 +513,7 @@
                 "label": null,
                 "multi": true,
                 "name": "instance",
-                "options": [
-
-                ],
+                "options": [],
                 "query": {
                     "query": "label_values(grafana_build_info, instance)",
                     "refId": "Billing Admin-instance-Variable-Query"

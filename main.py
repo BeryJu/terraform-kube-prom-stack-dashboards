@@ -2,6 +2,7 @@
 from requests import get
 from yaml import load, FullLoader
 from os import makedirs
+from json import loads, dumps
 
 raw_output = "dashboards/"
 
@@ -17,7 +18,10 @@ def build(doc: dict):
             print(f"- writing {file}")
             with open(f"{raw_output}/{file}", "w+", encoding="utf-8") as dbf:
                 dashboard = dashboard.replace('"hide": 2,', '"hide": 0,')
-                dbf.write(dashboard)
+                dashboard = loads(dashboard)
+                if dashboard.get("uid", None) == "":
+                    del dashboard["uid"]
+                dbf.write(dumps(dashboard, sort_keys=True, indent=4))
 
 def build_tf(doc: dict):
     main_tf = """terraform {
