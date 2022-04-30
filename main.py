@@ -61,13 +61,9 @@ variable "grafana_folder" {
         for file, _ in config_map.get("data", {}).items():
             slug = file.replace(".json", "")
             main_tf += f"""
-data "http" "k8s-{slug}" {{
-  url = "https://raw.githubusercontent.com/BeryJu/kube-prom-stack-dashboards/master/dashboards/{file}"
-}}
-
 resource "grafana_dashboard" "k8s-{slug}" {{
   folder      = var.grafana_folder
-  config_json = data.http.k8s-{slug}.body
+  config_json = file("${{path.module}}/dashboards/{file}")
 }}
 """
     with open(f"main.tf", "w+", encoding="utf-8") as mtf:

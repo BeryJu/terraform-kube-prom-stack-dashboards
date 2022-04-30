@@ -18,218 +18,122 @@ variable "grafana_folder" {
 }
 
 
-data "http" "k8s-alertmanager-overview" {
-  url = "https://raw.githubusercontent.com/BeryJu/kube-prom-stack-dashboards/master/dashboards/alertmanager-overview.json"
-}
-
 resource "grafana_dashboard" "k8s-alertmanager-overview" {
   folder      = var.grafana_folder
-  config_json = data.http.k8s-alertmanager-overview.body
-}
-
-data "http" "k8s-apiserver" {
-  url = "https://raw.githubusercontent.com/BeryJu/kube-prom-stack-dashboards/master/dashboards/apiserver.json"
+  config_json = file("${path.module}/dashboards/alertmanager-overview.json")
 }
 
 resource "grafana_dashboard" "k8s-apiserver" {
   folder      = var.grafana_folder
-  config_json = data.http.k8s-apiserver.body
-}
-
-data "http" "k8s-cluster-total" {
-  url = "https://raw.githubusercontent.com/BeryJu/kube-prom-stack-dashboards/master/dashboards/cluster-total.json"
+  config_json = file("${path.module}/dashboards/apiserver.json")
 }
 
 resource "grafana_dashboard" "k8s-cluster-total" {
   folder      = var.grafana_folder
-  config_json = data.http.k8s-cluster-total.body
-}
-
-data "http" "k8s-controller-manager" {
-  url = "https://raw.githubusercontent.com/BeryJu/kube-prom-stack-dashboards/master/dashboards/controller-manager.json"
+  config_json = file("${path.module}/dashboards/cluster-total.json")
 }
 
 resource "grafana_dashboard" "k8s-controller-manager" {
   folder      = var.grafana_folder
-  config_json = data.http.k8s-controller-manager.body
-}
-
-data "http" "k8s-grafana-overview" {
-  url = "https://raw.githubusercontent.com/BeryJu/kube-prom-stack-dashboards/master/dashboards/grafana-overview.json"
+  config_json = file("${path.module}/dashboards/controller-manager.json")
 }
 
 resource "grafana_dashboard" "k8s-grafana-overview" {
   folder      = var.grafana_folder
-  config_json = data.http.k8s-grafana-overview.body
-}
-
-data "http" "k8s-k8s-resources-cluster" {
-  url = "https://raw.githubusercontent.com/BeryJu/kube-prom-stack-dashboards/master/dashboards/k8s-resources-cluster.json"
+  config_json = file("${path.module}/dashboards/grafana-overview.json")
 }
 
 resource "grafana_dashboard" "k8s-k8s-resources-cluster" {
   folder      = var.grafana_folder
-  config_json = data.http.k8s-k8s-resources-cluster.body
-}
-
-data "http" "k8s-k8s-resources-namespace" {
-  url = "https://raw.githubusercontent.com/BeryJu/kube-prom-stack-dashboards/master/dashboards/k8s-resources-namespace.json"
+  config_json = file("${path.module}/dashboards/k8s-resources-cluster.json")
 }
 
 resource "grafana_dashboard" "k8s-k8s-resources-namespace" {
   folder      = var.grafana_folder
-  config_json = data.http.k8s-k8s-resources-namespace.body
-}
-
-data "http" "k8s-k8s-resources-node" {
-  url = "https://raw.githubusercontent.com/BeryJu/kube-prom-stack-dashboards/master/dashboards/k8s-resources-node.json"
+  config_json = file("${path.module}/dashboards/k8s-resources-namespace.json")
 }
 
 resource "grafana_dashboard" "k8s-k8s-resources-node" {
   folder      = var.grafana_folder
-  config_json = data.http.k8s-k8s-resources-node.body
-}
-
-data "http" "k8s-k8s-resources-pod" {
-  url = "https://raw.githubusercontent.com/BeryJu/kube-prom-stack-dashboards/master/dashboards/k8s-resources-pod.json"
+  config_json = file("${path.module}/dashboards/k8s-resources-node.json")
 }
 
 resource "grafana_dashboard" "k8s-k8s-resources-pod" {
   folder      = var.grafana_folder
-  config_json = data.http.k8s-k8s-resources-pod.body
-}
-
-data "http" "k8s-k8s-resources-workload" {
-  url = "https://raw.githubusercontent.com/BeryJu/kube-prom-stack-dashboards/master/dashboards/k8s-resources-workload.json"
+  config_json = file("${path.module}/dashboards/k8s-resources-pod.json")
 }
 
 resource "grafana_dashboard" "k8s-k8s-resources-workload" {
   folder      = var.grafana_folder
-  config_json = data.http.k8s-k8s-resources-workload.body
-}
-
-data "http" "k8s-k8s-resources-workloads-namespace" {
-  url = "https://raw.githubusercontent.com/BeryJu/kube-prom-stack-dashboards/master/dashboards/k8s-resources-workloads-namespace.json"
+  config_json = file("${path.module}/dashboards/k8s-resources-workload.json")
 }
 
 resource "grafana_dashboard" "k8s-k8s-resources-workloads-namespace" {
   folder      = var.grafana_folder
-  config_json = data.http.k8s-k8s-resources-workloads-namespace.body
-}
-
-data "http" "k8s-kubelet" {
-  url = "https://raw.githubusercontent.com/BeryJu/kube-prom-stack-dashboards/master/dashboards/kubelet.json"
+  config_json = file("${path.module}/dashboards/k8s-resources-workloads-namespace.json")
 }
 
 resource "grafana_dashboard" "k8s-kubelet" {
   folder      = var.grafana_folder
-  config_json = data.http.k8s-kubelet.body
-}
-
-data "http" "k8s-namespace-by-pod" {
-  url = "https://raw.githubusercontent.com/BeryJu/kube-prom-stack-dashboards/master/dashboards/namespace-by-pod.json"
+  config_json = file("${path.module}/dashboards/kubelet.json")
 }
 
 resource "grafana_dashboard" "k8s-namespace-by-pod" {
   folder      = var.grafana_folder
-  config_json = data.http.k8s-namespace-by-pod.body
-}
-
-data "http" "k8s-namespace-by-workload" {
-  url = "https://raw.githubusercontent.com/BeryJu/kube-prom-stack-dashboards/master/dashboards/namespace-by-workload.json"
+  config_json = file("${path.module}/dashboards/namespace-by-pod.json")
 }
 
 resource "grafana_dashboard" "k8s-namespace-by-workload" {
   folder      = var.grafana_folder
-  config_json = data.http.k8s-namespace-by-workload.body
-}
-
-data "http" "k8s-node-cluster-rsrc-use" {
-  url = "https://raw.githubusercontent.com/BeryJu/kube-prom-stack-dashboards/master/dashboards/node-cluster-rsrc-use.json"
+  config_json = file("${path.module}/dashboards/namespace-by-workload.json")
 }
 
 resource "grafana_dashboard" "k8s-node-cluster-rsrc-use" {
   folder      = var.grafana_folder
-  config_json = data.http.k8s-node-cluster-rsrc-use.body
-}
-
-data "http" "k8s-node-rsrc-use" {
-  url = "https://raw.githubusercontent.com/BeryJu/kube-prom-stack-dashboards/master/dashboards/node-rsrc-use.json"
+  config_json = file("${path.module}/dashboards/node-cluster-rsrc-use.json")
 }
 
 resource "grafana_dashboard" "k8s-node-rsrc-use" {
   folder      = var.grafana_folder
-  config_json = data.http.k8s-node-rsrc-use.body
-}
-
-data "http" "k8s-nodes" {
-  url = "https://raw.githubusercontent.com/BeryJu/kube-prom-stack-dashboards/master/dashboards/nodes.json"
+  config_json = file("${path.module}/dashboards/node-rsrc-use.json")
 }
 
 resource "grafana_dashboard" "k8s-nodes" {
   folder      = var.grafana_folder
-  config_json = data.http.k8s-nodes.body
-}
-
-data "http" "k8s-persistentvolumesusage" {
-  url = "https://raw.githubusercontent.com/BeryJu/kube-prom-stack-dashboards/master/dashboards/persistentvolumesusage.json"
+  config_json = file("${path.module}/dashboards/nodes.json")
 }
 
 resource "grafana_dashboard" "k8s-persistentvolumesusage" {
   folder      = var.grafana_folder
-  config_json = data.http.k8s-persistentvolumesusage.body
-}
-
-data "http" "k8s-pod-total" {
-  url = "https://raw.githubusercontent.com/BeryJu/kube-prom-stack-dashboards/master/dashboards/pod-total.json"
+  config_json = file("${path.module}/dashboards/persistentvolumesusage.json")
 }
 
 resource "grafana_dashboard" "k8s-pod-total" {
   folder      = var.grafana_folder
-  config_json = data.http.k8s-pod-total.body
-}
-
-data "http" "k8s-prometheus-remote-write" {
-  url = "https://raw.githubusercontent.com/BeryJu/kube-prom-stack-dashboards/master/dashboards/prometheus-remote-write.json"
+  config_json = file("${path.module}/dashboards/pod-total.json")
 }
 
 resource "grafana_dashboard" "k8s-prometheus-remote-write" {
   folder      = var.grafana_folder
-  config_json = data.http.k8s-prometheus-remote-write.body
-}
-
-data "http" "k8s-prometheus" {
-  url = "https://raw.githubusercontent.com/BeryJu/kube-prom-stack-dashboards/master/dashboards/prometheus.json"
+  config_json = file("${path.module}/dashboards/prometheus-remote-write.json")
 }
 
 resource "grafana_dashboard" "k8s-prometheus" {
   folder      = var.grafana_folder
-  config_json = data.http.k8s-prometheus.body
-}
-
-data "http" "k8s-proxy" {
-  url = "https://raw.githubusercontent.com/BeryJu/kube-prom-stack-dashboards/master/dashboards/proxy.json"
+  config_json = file("${path.module}/dashboards/prometheus.json")
 }
 
 resource "grafana_dashboard" "k8s-proxy" {
   folder      = var.grafana_folder
-  config_json = data.http.k8s-proxy.body
-}
-
-data "http" "k8s-scheduler" {
-  url = "https://raw.githubusercontent.com/BeryJu/kube-prom-stack-dashboards/master/dashboards/scheduler.json"
+  config_json = file("${path.module}/dashboards/proxy.json")
 }
 
 resource "grafana_dashboard" "k8s-scheduler" {
   folder      = var.grafana_folder
-  config_json = data.http.k8s-scheduler.body
-}
-
-data "http" "k8s-workload-total" {
-  url = "https://raw.githubusercontent.com/BeryJu/kube-prom-stack-dashboards/master/dashboards/workload-total.json"
+  config_json = file("${path.module}/dashboards/scheduler.json")
 }
 
 resource "grafana_dashboard" "k8s-workload-total" {
   folder      = var.grafana_folder
-  config_json = data.http.k8s-workload-total.body
+  config_json = file("${path.module}/dashboards/workload-total.json")
 }
