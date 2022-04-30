@@ -33,7 +33,7 @@ def dashboard_clean_job(dashboard):
     """Remove all job filters from the dashboards"""
     # this is easier to replace within json so we dump it to json, regex replace and load again
     raw = dumps(dashboard)
-    dashboard = sub(r'job=\\"[\w\-]+\\",\s?', "", raw)
+    dashboard = sub(r'job=\\"[\w\-]+\\",?\s?', "", raw)
     return loads(dashboard)
 
 def build_tf(doc: dict):

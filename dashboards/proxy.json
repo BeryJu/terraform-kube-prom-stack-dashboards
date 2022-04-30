@@ -77,7 +77,7 @@
                     "tableColumn": "",
                     "targets": [
                         {
-                            "expr": "sum(up{cluster=\"$cluster\", job=\"kube-proxy\"})",
+                            "expr": "sum(up{cluster=\"$cluster\", })",
                             "format": "time_series",
                             "intervalFactor": 2,
                             "legendFormat": "",
@@ -1034,7 +1034,7 @@
                 "multi": false,
                 "name": "cluster",
                 "options": [],
-                "query": "label_values(up{job=\"kube-proxy\"}, cluster)",
+                "query": "label_values(up{}, cluster)",
                 "refresh": 2,
                 "regex": "",
                 "sort": 1,
@@ -1054,7 +1054,7 @@
                 "multi": false,
                 "name": "instance",
                 "options": [],
-                "query": "label_values(up{cluster=\"$cluster\", job=\"kube-proxy\"}, instance)",
+                "query": "label_values(up{cluster=\"$cluster\", }, instance)",
                 "refresh": 2,
                 "regex": "",
                 "sort": 1,

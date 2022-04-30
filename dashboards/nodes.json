@@ -821,7 +821,7 @@
                 "multi": false,
                 "name": "instance",
                 "options": [],
-                "query": "label_values(node_exporter_build_info{job=\"node-exporter\"}, instance)",
+                "query": "label_values(node_exporter_build_info{}, instance)",
                 "refresh": 2,
                 "regex": "",
                 "sort": 0,
