@@ -3,6 +3,7 @@ from requests import get
 from yaml import load, FullLoader
 from os import makedirs
 from json import loads, dumps
+from re import sub
 
 raw_output = "dashboards/"
 
@@ -19,9 +20,21 @@ def build(doc: dict):
             with open(f"{raw_output}/{file}", "w+", encoding="utf-8") as dbf:
                 dashboard = dashboard.replace('"hide": 2,', '"hide": 0,')
                 dashboard = loads(dashboard)
-                if dashboard.get("uid", None) == "":
-                    del dashboard["uid"]
+                dashboard = dashboard_clean_uid(dashboard)
+                dashboard = dashboard_clean_job(dashboard)
                 dbf.write(dumps(dashboard, sort_keys=True, indent=4))
+
+def dashboard_clean_uid(dashboard):
+    if dashboard.get("uid", None) == "":
+        del dashboard["uid"]
+    return dashboard
+
+def dashboard_clean_job(dashboard):
+    """Remove all job filters from the dashboards"""
+    # this is easier to replace within json so we dump it to json, regex replace and load again
+    raw = dumps(dashboard)
+    dashboard = sub(r'job=\\"[\w\-]+\\",\s?', "", raw)
+    return loads(dashboard)
 
 def build_tf(doc: dict):
     main_tf = """terraform {

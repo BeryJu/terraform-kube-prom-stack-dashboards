@@ -988,7 +988,7 @@
                     "steppedLine": false,
                     "targets": [
                         {
-                            "expr": "sum(rate(workqueue_adds_total{job=\"apiserver\", instance=~\"$instance\", cluster=\"$cluster\"}[$__rate_interval])) by (instance, name)",
+                            "expr": "sum(rate(workqueue_adds_total{instance=~\"$instance\", cluster=\"$cluster\"}[$__rate_interval])) by (instance, name)",
                             "format": "time_series",
                             "intervalFactor": 2,
                             "legendFormat": "{{instance}} {{name}}",
@@ -1070,7 +1070,7 @@
                     "steppedLine": false,
                     "targets": [
                         {
-                            "expr": "sum(rate(workqueue_depth{job=\"apiserver\", instance=~\"$instance\", cluster=\"$cluster\"}[$__rate_interval])) by (instance, name)",
+                            "expr": "sum(rate(workqueue_depth{instance=~\"$instance\", cluster=\"$cluster\"}[$__rate_interval])) by (instance, name)",
                             "format": "time_series",
                             "intervalFactor": 2,
                             "legendFormat": "{{instance}} {{name}}",
@@ -1152,7 +1152,7 @@
                     "steppedLine": false,
                     "targets": [
                         {
-                            "expr": "histogram_quantile(0.99, sum(rate(workqueue_queue_duration_seconds_bucket{job=\"apiserver\", instance=~\"$instance\", cluster=\"$cluster\"}[$__rate_interval])) by (instance, name, le))",
+                            "expr": "histogram_quantile(0.99, sum(rate(workqueue_queue_duration_seconds_bucket{instance=~\"$instance\", cluster=\"$cluster\"}[$__rate_interval])) by (instance, name, le))",
                             "format": "time_series",
                             "intervalFactor": 2,
                             "legendFormat": "{{instance}} {{name}}",
@@ -1247,7 +1247,7 @@
                     "steppedLine": false,
                     "targets": [
                         {
-                            "expr": "process_resident_memory_bytes{job=\"apiserver\",instance=~\"$instance\", cluster=\"$cluster\"}",
+                            "expr": "process_resident_memory_bytes{instance=~\"$instance\", cluster=\"$cluster\"}",
                             "format": "time_series",
                             "intervalFactor": 2,
                             "legendFormat": "{{instance}}",
@@ -1329,7 +1329,7 @@
                     "steppedLine": false,
                     "targets": [
                         {
-                            "expr": "rate(process_cpu_seconds_total{job=\"apiserver\",instance=~\"$instance\", cluster=\"$cluster\"}[$__rate_interval])",
+                            "expr": "rate(process_cpu_seconds_total{instance=~\"$instance\", cluster=\"$cluster\"}[$__rate_interval])",
                             "format": "time_series",
                             "intervalFactor": 2,
                             "legendFormat": "{{instance}}",
@@ -1411,7 +1411,7 @@
                     "steppedLine": false,
                     "targets": [
                         {
-                            "expr": "go_goroutines{job=\"apiserver\",instance=~\"$instance\", cluster=\"$cluster\"}",
+                            "expr": "go_goroutines{instance=~\"$instance\", cluster=\"$cluster\"}",
                             "format": "time_series",
                             "intervalFactor": 2,
                             "legendFormat": "{{instance}}",
@@ -1515,7 +1515,7 @@
                 "multi": false,
                 "name": "instance",
                 "options": [],
-                "query": "label_values(up{job=\"apiserver\", cluster=\"$cluster\"}, instance)",
+                "query": "label_values(up{cluster=\"$cluster\"}, instance)",
                 "refresh": 2,
                 "regex": "",
                 "sort": 1,
