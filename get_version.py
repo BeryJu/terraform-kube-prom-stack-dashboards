@@ -2,6 +2,6 @@
 import subprocess
 
 latest_tag = subprocess.getoutput("git describe --abbrev=0 --tags").strip()
-major, minor = latest_tag.split(".")
+major, minor, build = latest_tag.split(".")
 minor = int(minor) + 1
-print(f"{major}.{minor}")
+print(f"{major}.{minor}.{build}")
