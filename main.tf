@@ -48,6 +48,11 @@ resource "grafana_dashboard" "k8s-k8s-resources-cluster" {
   config_json = file("${path.module}/dashboards/k8s-resources-cluster.json")
 }
 
+resource "grafana_dashboard" "k8s-k8s-resources-multicluster" {
+  folder      = var.grafana_folder
+  config_json = file("${path.module}/dashboards/k8s-resources-multicluster.json")
+}
+
 resource "grafana_dashboard" "k8s-k8s-resources-namespace" {
   folder      = var.grafana_folder
   config_json = file("${path.module}/dashboards/k8s-resources-namespace.json")
