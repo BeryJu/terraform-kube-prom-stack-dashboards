@@ -538,8 +538,7 @@
                             "format": "time_series",
                             "intervalFactor": 2,
                             "legendFormat": "{{cluster}}",
-                            "legendLink": null,
-                            "step": 10
+                            "legendLink": null
                         }
                     ],
                     "thresholds": [],
@@ -739,8 +738,7 @@
                             "instant": true,
                             "intervalFactor": 2,
                             "legendFormat": "",
-                            "refId": "A",
-                            "step": 10
+                            "refId": "A"
                         },
                         {
                             "expr": "sum(kube_pod_container_resource_requests{resource=\"cpu\"}) by (cluster)",
@@ -748,8 +746,7 @@
                             "instant": true,
                             "intervalFactor": 2,
                             "legendFormat": "",
-                            "refId": "B",
-                            "step": 10
+                            "refId": "B"
                         },
                         {
                             "expr": "sum(node_namespace_pod_container:container_cpu_usage_seconds_total:sum_irate) by (cluster) / sum(kube_pod_container_resource_requests{resource=\"cpu\"}) by (cluster)",
@@ -757,8 +754,7 @@
                             "instant": true,
                             "intervalFactor": 2,
                             "legendFormat": "",
-                            "refId": "C",
-                            "step": 10
+                            "refId": "C"
                         },
                         {
                             "expr": "sum(kube_pod_container_resource_limits{resource=\"cpu\"}) by (cluster)",
@@ -766,8 +762,7 @@
                             "instant": true,
                             "intervalFactor": 2,
                             "legendFormat": "",
-                            "refId": "D",
-                            "step": 10
+                            "refId": "D"
                         },
                         {
                             "expr": "sum(node_namespace_pod_container:container_cpu_usage_seconds_total:sum_irate) by (cluster) / sum(kube_pod_container_resource_limits{resource=\"cpu\"}) by (cluster)",
@@ -775,8 +770,7 @@
                             "instant": true,
                             "intervalFactor": 2,
                             "legendFormat": "",
-                            "refId": "E",
-                            "step": 10
+                            "refId": "E"
                         }
                     ],
                     "thresholds": [],
@@ -867,8 +861,7 @@
                             "format": "time_series",
                             "intervalFactor": 2,
                             "legendFormat": "{{cluster}}",
-                            "legendLink": null,
-                            "step": 10
+                            "legendLink": null
                         }
                     ],
                     "thresholds": [],
@@ -1068,8 +1061,7 @@
                             "instant": true,
                             "intervalFactor": 2,
                             "legendFormat": "",
-                            "refId": "A",
-                            "step": 10
+                            "refId": "A"
                         },
                         {
                             "expr": "sum(kube_pod_container_resource_requests{resource=\"memory\"}) by (cluster)",
@@ -1077,8 +1069,7 @@
                             "instant": true,
                             "intervalFactor": 2,
                             "legendFormat": "",
-                            "refId": "B",
-                            "step": 10
+                            "refId": "B"
                         },
                         {
                             "expr": "sum(container_memory_rss{metrics_path=\"/metrics/cadvisor\", container!=\"\"}) by (cluster) / sum(kube_pod_container_resource_requests{resource=\"memory\"}) by (cluster)",
@@ -1086,8 +1077,7 @@
                             "instant": true,
                             "intervalFactor": 2,
                             "legendFormat": "",
-                            "refId": "C",
-                            "step": 10
+                            "refId": "C"
                         },
                         {
                             "expr": "sum(kube_pod_container_resource_limits{resource=\"memory\"}) by (cluster)",
@@ -1095,8 +1085,7 @@
                             "instant": true,
                             "intervalFactor": 2,
                             "legendFormat": "",
-                            "refId": "D",
-                            "step": 10
+                            "refId": "D"
                         },
                         {
                             "expr": "sum(container_memory_rss{metrics_path=\"/metrics/cadvisor\", container!=\"\"}) by (cluster) / sum(kube_pod_container_resource_limits{resource=\"memory\"}) by (cluster)",
@@ -1104,8 +1093,7 @@
                             "instant": true,
                             "intervalFactor": 2,
                             "legendFormat": "",
-                            "refId": "E",
-                            "step": 10
+                            "refId": "E"
                         }
                     ],
                     "thresholds": [],
