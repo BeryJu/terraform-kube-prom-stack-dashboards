@@ -52,10 +52,9 @@ def build_tf(doc: dict):
 
 variable "grafana_folder" {
   description = "Folder in grafana to add the dashboards to"
-  type        = number
-  default     = 0
+  type        = string
+  default     = null
 }
-
 """
     for config_map in doc.get("items", []):
         for file, _ in config_map.get("data", {}).items():

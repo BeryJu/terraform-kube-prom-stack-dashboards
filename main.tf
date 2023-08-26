@@ -13,10 +13,9 @@ terraform {
 
 variable "grafana_folder" {
   description = "Folder in grafana to add the dashboards to"
-  type        = number
-  default     = 0
+  type        = string
+  default     = null
 }
-
 
 resource "grafana_dashboard" "k8s-alertmanager-overview" {
   folder      = var.grafana_folder
