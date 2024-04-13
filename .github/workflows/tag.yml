@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - master
+      - main
     paths:
       - 'dasbboards/**'
 
@@ -15,8 +15,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Push
-        run: |
+      - run: |
           git config --global user.name 'BeryJu.io bot'
           git config --global user.email 'bot@beryju.org'
           version=$(python -m get_version)

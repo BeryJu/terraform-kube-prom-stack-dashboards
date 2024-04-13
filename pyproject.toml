@@ -5,7 +5,7 @@ description = ""
 authors = ["Jens Langhammer <jens.langhammer@beryju.org>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.12"
 requests = "^2.31.0"
 PyYAML = "^6.0"
 
