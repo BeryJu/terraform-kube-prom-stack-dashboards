@@ -362,6 +362,7 @@
                     "id": "organize",
                     "options": {
                         "excludeByName": {
+                            "Time": true,
                             "Time 1": true,
                             "Time 2": true,
                             "Time 3": true,
@@ -549,6 +550,7 @@
                     "id": "organize",
                     "options": {
                         "excludeByName": {
+                            "Time": true,
                             "Time 1": true,
                             "Time 2": true,
                             "Time 3": true,
