@@ -33,7 +33,7 @@
                     "mode": "single"
                 }
             },
-            "pluginVersion": "v10.4.0",
+            "pluginVersion": "v11.0.0",
             "targets": [
                 {
                     "datasource": {
@@ -79,7 +79,7 @@
                     "mode": "single"
                 }
             },
-            "pluginVersion": "v10.4.0",
+            "pluginVersion": "v11.0.0",
             "targets": [
                 {
                     "datasource": {
@@ -150,7 +150,7 @@
                 "y": 9
             },
             "id": 3,
-            "pluginVersion": "v10.4.0",
+            "pluginVersion": "v11.0.0",
             "targets": [
                 {
                     "datasource": {
@@ -315,7 +315,7 @@
                     "mode": "single"
                 }
             },
-            "pluginVersion": "v10.4.0",
+            "pluginVersion": "v11.0.0",
             "targets": [
                 {
                     "datasource": {
@@ -361,7 +361,7 @@
                     "mode": "single"
                 }
             },
-            "pluginVersion": "v10.4.0",
+            "pluginVersion": "v11.0.0",
             "targets": [
                 {
                     "datasource": {
@@ -407,7 +407,7 @@
                     "mode": "single"
                 }
             },
-            "pluginVersion": "v10.4.0",
+            "pluginVersion": "v11.0.0",
             "targets": [
                 {
                     "datasource": {
@@ -453,7 +453,7 @@
                     "mode": "single"
                 }
             },
-            "pluginVersion": "v10.4.0",
+            "pluginVersion": "v11.0.0",
             "targets": [
                 {
                     "datasource": {
@@ -499,7 +499,7 @@
                     "mode": "single"
                 }
             },
-            "pluginVersion": "v10.4.0",
+            "pluginVersion": "v11.0.0",
             "targets": [
                 {
                     "datasource": {
@@ -545,7 +545,7 @@
                     "mode": "single"
                 }
             },
-            "pluginVersion": "v10.4.0",
+            "pluginVersion": "v11.0.0",
             "targets": [
                 {
                     "datasource": {
@@ -591,7 +591,7 @@
                     "mode": "single"
                 }
             },
-            "pluginVersion": "v10.4.0",
+            "pluginVersion": "v11.0.0",
             "targets": [
                 {
                     "datasource": {
@@ -637,7 +637,7 @@
                     "mode": "single"
                 }
             },
-            "pluginVersion": "v10.4.0",
+            "pluginVersion": "v11.0.0",
             "targets": [
                 {
                     "datasource": {
@@ -683,7 +683,7 @@
                     "mode": "single"
                 }
             },
-            "pluginVersion": "v10.4.0",
+            "pluginVersion": "v11.0.0",
             "targets": [
                 {
                     "datasource": {
@@ -729,7 +729,7 @@
                     "mode": "single"
                 }
             },
-            "pluginVersion": "v10.4.0",
+            "pluginVersion": "v11.0.0",
             "targets": [
                 {
                     "datasource": {
@@ -745,7 +745,7 @@
         }
     ],
     "refresh": "10s",
-    "schemaVersion": 36,
+    "schemaVersion": 39,
     "tags": [
         "kubernetes-mixin"
     ],
