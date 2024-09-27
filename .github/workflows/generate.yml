@@ -14,7 +14,7 @@ jobs:
         with:
           python-version-file: 'pyproject.toml'
       - run: |
-          sudo pip install -U wheel poetry
+          pipx install poetry || true
           poetry install
           poetry run python main.py
       - uses: peter-evans/create-pull-request@v7
