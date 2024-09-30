@@ -100,6 +100,11 @@ resource "grafana_dashboard" "k8s-node-rsrc-use" {
   config_json = file("${path.module}/dashboards/node-rsrc-use.json")
 }
 
+resource "grafana_dashboard" "k8s-nodes-aix" {
+  folder      = var.grafana_folder
+  config_json = file("${path.module}/dashboards/nodes-aix.json")
+}
+
 resource "grafana_dashboard" "k8s-nodes-darwin" {
   folder      = var.grafana_folder
   config_json = file("${path.module}/dashboards/nodes-darwin.json")
