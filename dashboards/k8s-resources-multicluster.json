@@ -42,7 +42,7 @@
                         "type": "prometheus",
                         "uid": "${datasource}"
                     },
-                    "expr": "cluster:node_cpu:ratio_rate5m",
+                    "expr": "sum(cluster:node_cpu:ratio_rate5m) / count(cluster:node_cpu:ratio_rate5m)",
                     "instant": true
                 }
             ],
