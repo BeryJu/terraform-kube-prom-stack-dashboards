@@ -65,6 +65,21 @@ resource "grafana_dashboard" "k8s-k8s-resources-pod" {
   config_json = file("${path.module}/dashboards/k8s-resources-pod.json")
 }
 
+resource "grafana_dashboard" "k8s-k8s-resources-windows-cluster" {
+  folder      = var.grafana_folder
+  config_json = file("${path.module}/dashboards/k8s-resources-windows-cluster.json")
+}
+
+resource "grafana_dashboard" "k8s-k8s-resources-windows-namespace" {
+  folder      = var.grafana_folder
+  config_json = file("${path.module}/dashboards/k8s-resources-windows-namespace.json")
+}
+
+resource "grafana_dashboard" "k8s-k8s-resources-windows-pod" {
+  folder      = var.grafana_folder
+  config_json = file("${path.module}/dashboards/k8s-resources-windows-pod.json")
+}
+
 resource "grafana_dashboard" "k8s-k8s-resources-workload" {
   folder      = var.grafana_folder
   config_json = file("${path.module}/dashboards/k8s-resources-workload.json")
@@ -73,6 +88,16 @@ resource "grafana_dashboard" "k8s-k8s-resources-workload" {
 resource "grafana_dashboard" "k8s-k8s-resources-workloads-namespace" {
   folder      = var.grafana_folder
   config_json = file("${path.module}/dashboards/k8s-resources-workloads-namespace.json")
+}
+
+resource "grafana_dashboard" "k8s-k8s-windows-cluster-rsrc-use" {
+  folder      = var.grafana_folder
+  config_json = file("${path.module}/dashboards/k8s-windows-cluster-rsrc-use.json")
+}
+
+resource "grafana_dashboard" "k8s-k8s-windows-node-rsrc-use" {
+  folder      = var.grafana_folder
+  config_json = file("${path.module}/dashboards/k8s-windows-node-rsrc-use.json")
 }
 
 resource "grafana_dashboard" "k8s-kubelet" {
