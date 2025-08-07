@@ -15,11 +15,6 @@ variable "grafana_folder" {
   default     = null
 }
 
-resource "grafana_dashboard" "k8s-alertmanager-overview" {
-  folder      = var.grafana_folder
-  config_json = file("${path.module}/dashboards/alertmanager-overview.json")
-}
-
 resource "grafana_dashboard" "k8s-apiserver" {
   folder      = var.grafana_folder
   config_json = file("${path.module}/dashboards/apiserver.json")
@@ -35,19 +30,9 @@ resource "grafana_dashboard" "k8s-controller-manager" {
   config_json = file("${path.module}/dashboards/controller-manager.json")
 }
 
-resource "grafana_dashboard" "k8s-grafana-overview" {
-  folder      = var.grafana_folder
-  config_json = file("${path.module}/dashboards/grafana-overview.json")
-}
-
 resource "grafana_dashboard" "k8s-k8s-resources-cluster" {
   folder      = var.grafana_folder
   config_json = file("${path.module}/dashboards/k8s-resources-cluster.json")
-}
-
-resource "grafana_dashboard" "k8s-k8s-resources-multicluster" {
-  folder      = var.grafana_folder
-  config_json = file("${path.module}/dashboards/k8s-resources-multicluster.json")
 }
 
 resource "grafana_dashboard" "k8s-k8s-resources-namespace" {
@@ -65,21 +50,6 @@ resource "grafana_dashboard" "k8s-k8s-resources-pod" {
   config_json = file("${path.module}/dashboards/k8s-resources-pod.json")
 }
 
-resource "grafana_dashboard" "k8s-k8s-resources-windows-cluster" {
-  folder      = var.grafana_folder
-  config_json = file("${path.module}/dashboards/k8s-resources-windows-cluster.json")
-}
-
-resource "grafana_dashboard" "k8s-k8s-resources-windows-namespace" {
-  folder      = var.grafana_folder
-  config_json = file("${path.module}/dashboards/k8s-resources-windows-namespace.json")
-}
-
-resource "grafana_dashboard" "k8s-k8s-resources-windows-pod" {
-  folder      = var.grafana_folder
-  config_json = file("${path.module}/dashboards/k8s-resources-windows-pod.json")
-}
-
 resource "grafana_dashboard" "k8s-k8s-resources-workload" {
   folder      = var.grafana_folder
   config_json = file("${path.module}/dashboards/k8s-resources-workload.json")
@@ -88,16 +58,6 @@ resource "grafana_dashboard" "k8s-k8s-resources-workload" {
 resource "grafana_dashboard" "k8s-k8s-resources-workloads-namespace" {
   folder      = var.grafana_folder
   config_json = file("${path.module}/dashboards/k8s-resources-workloads-namespace.json")
-}
-
-resource "grafana_dashboard" "k8s-k8s-windows-cluster-rsrc-use" {
-  folder      = var.grafana_folder
-  config_json = file("${path.module}/dashboards/k8s-windows-cluster-rsrc-use.json")
-}
-
-resource "grafana_dashboard" "k8s-k8s-windows-node-rsrc-use" {
-  folder      = var.grafana_folder
-  config_json = file("${path.module}/dashboards/k8s-windows-node-rsrc-use.json")
 }
 
 resource "grafana_dashboard" "k8s-kubelet" {
@@ -123,16 +83,6 @@ resource "grafana_dashboard" "k8s-node-cluster-rsrc-use" {
 resource "grafana_dashboard" "k8s-node-rsrc-use" {
   folder      = var.grafana_folder
   config_json = file("${path.module}/dashboards/node-rsrc-use.json")
-}
-
-resource "grafana_dashboard" "k8s-nodes-aix" {
-  folder      = var.grafana_folder
-  config_json = file("${path.module}/dashboards/nodes-aix.json")
-}
-
-resource "grafana_dashboard" "k8s-nodes-darwin" {
-  folder      = var.grafana_folder
-  config_json = file("${path.module}/dashboards/nodes-darwin.json")
 }
 
 resource "grafana_dashboard" "k8s-nodes" {
@@ -168,6 +118,11 @@ resource "grafana_dashboard" "k8s-proxy" {
 resource "grafana_dashboard" "k8s-scheduler" {
   folder      = var.grafana_folder
   config_json = file("${path.module}/dashboards/scheduler.json")
+}
+
+resource "grafana_dashboard" "k8s-statefulset" {
+  folder      = var.grafana_folder
+  config_json = file("${path.module}/dashboards/statefulset.json")
 }
 
 resource "grafana_dashboard" "k8s-workload-total" {
