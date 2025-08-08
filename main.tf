@@ -45,11 +45,6 @@ resource "grafana_dashboard" "k8s-k8s-resources-cluster" {
   config_json = file("${path.module}/dashboards/k8s-resources-cluster.json")
 }
 
-resource "grafana_dashboard" "k8s-k8s-resources-multicluster" {
-  folder      = var.grafana_folder
-  config_json = file("${path.module}/dashboards/k8s-resources-multicluster.json")
-}
-
 resource "grafana_dashboard" "k8s-k8s-resources-namespace" {
   folder      = var.grafana_folder
   config_json = file("${path.module}/dashboards/k8s-resources-namespace.json")
@@ -65,21 +60,6 @@ resource "grafana_dashboard" "k8s-k8s-resources-pod" {
   config_json = file("${path.module}/dashboards/k8s-resources-pod.json")
 }
 
-resource "grafana_dashboard" "k8s-k8s-resources-windows-cluster" {
-  folder      = var.grafana_folder
-  config_json = file("${path.module}/dashboards/k8s-resources-windows-cluster.json")
-}
-
-resource "grafana_dashboard" "k8s-k8s-resources-windows-namespace" {
-  folder      = var.grafana_folder
-  config_json = file("${path.module}/dashboards/k8s-resources-windows-namespace.json")
-}
-
-resource "grafana_dashboard" "k8s-k8s-resources-windows-pod" {
-  folder      = var.grafana_folder
-  config_json = file("${path.module}/dashboards/k8s-resources-windows-pod.json")
-}
-
 resource "grafana_dashboard" "k8s-k8s-resources-workload" {
   folder      = var.grafana_folder
   config_json = file("${path.module}/dashboards/k8s-resources-workload.json")
@@ -88,16 +68,6 @@ resource "grafana_dashboard" "k8s-k8s-resources-workload" {
 resource "grafana_dashboard" "k8s-k8s-resources-workloads-namespace" {
   folder      = var.grafana_folder
   config_json = file("${path.module}/dashboards/k8s-resources-workloads-namespace.json")
-}
-
-resource "grafana_dashboard" "k8s-k8s-windows-cluster-rsrc-use" {
-  folder      = var.grafana_folder
-  config_json = file("${path.module}/dashboards/k8s-windows-cluster-rsrc-use.json")
-}
-
-resource "grafana_dashboard" "k8s-k8s-windows-node-rsrc-use" {
-  folder      = var.grafana_folder
-  config_json = file("${path.module}/dashboards/k8s-windows-node-rsrc-use.json")
 }
 
 resource "grafana_dashboard" "k8s-kubelet" {
@@ -123,11 +93,6 @@ resource "grafana_dashboard" "k8s-node-cluster-rsrc-use" {
 resource "grafana_dashboard" "k8s-node-rsrc-use" {
   folder      = var.grafana_folder
   config_json = file("${path.module}/dashboards/node-rsrc-use.json")
-}
-
-resource "grafana_dashboard" "k8s-nodes-aix" {
-  folder      = var.grafana_folder
-  config_json = file("${path.module}/dashboards/nodes-aix.json")
 }
 
 resource "grafana_dashboard" "k8s-nodes-darwin" {
