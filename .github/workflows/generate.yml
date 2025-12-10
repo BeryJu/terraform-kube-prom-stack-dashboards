@@ -17,7 +17,7 @@ jobs:
           pipx install poetry || true
           poetry install
           poetry run python main.py
-      - uses: peter-evans/create-pull-request@v7
+      - uses: peter-evans/create-pull-request@v8
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: new-build
