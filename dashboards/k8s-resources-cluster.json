@@ -1558,7 +1558,7 @@
                 "hide": 0,
                 "label": "cluster",
                 "name": "cluster",
-                "query": "label_values(up{metrics_path=\"/metrics/cadvisor\"}, cluster)",
+                "query": "label_values(up{}, cluster)",
                 "refresh": 2,
                 "sort": 1,
                 "type": "query"
