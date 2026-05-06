@@ -60,6 +60,11 @@ resource "grafana_dashboard" "k8s-k8s-resources-node" {
   config_json = file("${path.module}/dashboards/k8s-resources-node.json")
 }
 
+resource "grafana_dashboard" "k8s-k8s-resources-nodes-overview" {
+  folder      = var.grafana_folder
+  config_json = file("${path.module}/dashboards/k8s-resources-nodes-overview.json")
+}
+
 resource "grafana_dashboard" "k8s-k8s-resources-pod" {
   folder      = var.grafana_folder
   config_json = file("${path.module}/dashboards/k8s-resources-pod.json")
