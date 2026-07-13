@@ -51,7 +51,7 @@
                     "mode": "single"
                 }
             },
-            "pluginVersion": "v11.4.0",
+            "pluginVersion": "v13.0.0",
             "targets": [
                 {
                     "datasource": {
@@ -102,7 +102,7 @@
                     "mode": "single"
                 }
             },
-            "pluginVersion": "v11.4.0",
+            "pluginVersion": "v13.0.0",
             "targets": [
                 {
                     "datasource": {
@@ -153,7 +153,7 @@
                     "mode": "single"
                 }
             },
-            "pluginVersion": "v11.4.0",
+            "pluginVersion": "v13.0.0",
             "targets": [
                 {
                     "datasource": {
@@ -204,7 +204,7 @@
                     "mode": "single"
                 }
             },
-            "pluginVersion": "v11.4.0",
+            "pluginVersion": "v13.0.0",
             "targets": [
                 {
                     "datasource": {
@@ -271,7 +271,7 @@
                     "mode": "single"
                 }
             },
-            "pluginVersion": "v11.4.0",
+            "pluginVersion": "v13.0.0",
             "targets": [
                 {
                     "datasource": {
@@ -322,7 +322,7 @@
                     "mode": "single"
                 }
             },
-            "pluginVersion": "v11.4.0",
+            "pluginVersion": "v13.0.0",
             "targets": [
                 {
                     "datasource": {
@@ -387,7 +387,7 @@
                     "mode": "single"
                 }
             },
-            "pluginVersion": "v11.4.0",
+            "pluginVersion": "v13.0.0",
             "targets": [
                 {
                     "datasource": {
@@ -454,7 +454,7 @@
                     "mode": "single"
                 }
             },
-            "pluginVersion": "v11.4.0",
+            "pluginVersion": "v13.0.0",
             "targets": [
                 {
                     "datasource": {
@@ -505,7 +505,7 @@
                     "mode": "single"
                 }
             },
-            "pluginVersion": "v11.4.0",
+            "pluginVersion": "v13.0.0",
             "targets": [
                 {
                     "datasource": {
@@ -556,7 +556,7 @@
                     "mode": "single"
                 }
             },
-            "pluginVersion": "v11.4.0",
+            "pluginVersion": "v13.0.0",
             "targets": [
                 {
                     "datasource": {
