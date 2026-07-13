@@ -50,7 +50,7 @@
                     "mode": "single"
                 }
             },
-            "pluginVersion": "v11.4.0",
+            "pluginVersion": "v13.0.0",
             "targets": [
                 {
                     "datasource": {
@@ -109,7 +109,7 @@
                 "y": 7
             },
             "id": 2,
-            "pluginVersion": "v11.4.0",
+            "pluginVersion": "v13.0.0",
             "targets": [
                 {
                     "datasource": {
@@ -240,7 +240,7 @@
                     "mode": "single"
                 }
             },
-            "pluginVersion": "v11.4.0",
+            "pluginVersion": "v13.0.0",
             "targets": [
                 {
                     "datasource": {
@@ -285,7 +285,7 @@
                 "y": 21
             },
             "id": 4,
-            "pluginVersion": "v11.4.0",
+            "pluginVersion": "v13.0.0",
             "targets": [
                 {
                     "datasource": {
@@ -416,7 +416,7 @@
                     "mode": "single"
                 }
             },
-            "pluginVersion": "v11.4.0",
+            "pluginVersion": "v13.0.0",
             "targets": [
                 {
                     "datasource": {
